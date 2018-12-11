@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.TwoWayBinding" 
+             xmlns:local="clr-namespace:App1"  
+             >
+    <!--<ContentPage.Content>-->
+        <!--<ListView x:Name="listView" 
+                  SeparatorVisibility="None"
+                  ItemsSource="{Binding lights}" 
+                  ItemSelected="listSelection">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="2,15">
+                            <Image HorizontalOptions="Start" Source="bulb.png"  />
+                            <Label Text="{Binding name}" HorizontalOptions="CenterAndExpand" FontSize="18" FontFamily="" />
+                            <Label Text="On" TextColor="Blue" HorizontalOptions="End" IsVisible="{Binding isOn}" />
+                            <Label Text="Off" TextColor="Gray" HorizontalOptions="End" IsVisible="{Binding isNotOn}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+    <ListView x:Name="list"  
+              ItemsSource="{Binding ListData, Source={x:Reference TwoWayBinding}}">
+    </ListView>
+
+    <!--</ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Switch" Clicked="OnEditTap" />
+        <ToolbarItem Text="Name" Clicked="OnNameTap" />
+    </ContentPage.ToolbarItems>-->
+</ContentPage>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+  
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="200" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Text="Top Left" Grid.Row="0" Grid.Column="0" />
+        <Label Text="Top Right" Grid.Row="0" Grid.Column="3" />
+        <Label Text="Bottom Left" Grid.Row="3" Grid.Column="0" />
+        <Label Text="Bottom Right" Grid.Row="3" Grid.Column="1" />
+    </Grid>-->
+
+    <ContentPage.Content>
+        
+        <!--layout login-->
+        <!--<StackLayout VerticalOptions="StartAndExpand">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+                
+                <Entry x:Name="usernameEntry" Placeholder="username" Grid.Row="2" Grid.Column="1"/>
+                <Entry x:Name="passwordEntry" Placeholder="password" IsPassword="true" Grid.Row="4" Grid.Column="1"/>
+                <Button Text="Login" Grid.Row="5" Grid.Column="1" BackgroundColor="BlueViolet"/>
+                <Label x:Name="messageLabel" />
+            </Grid>    
+        </StackLayout>-->
+      <StackLayout Padding="10" Spacing="10">
+        <Label Text="Name"></Label>
+        <Entry Text="{Binding Name}" Placeholder="Full Name" />
+        <Label Text="{Binding ShowName}"></Label>
+          
+        <Label Text="Website"></Label>
+        <Entry Text="{Binding Website}" Placeholder="Your Website" />
+
+        <StackLayout Orientation="Horizontal" Spacing="10">
+            <Label Text="Best Friend?"></Label>
+            <Switch IsToggled="{Binding BestFriend}"></Switch>
+        </StackLayout>
+
+        <Label Text="{Binding DisplayMessage}" />
+        
+      </StackLayout>
+    </ContentPage.Content>
+
+
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Date"
+             Title="APLIKASI"
+             >
+    
+    <StackLayout HorizontalOptions="FillAndExpand"
+                           VerticalOptions="FillAndExpand"
+                           Padding="0,46,0,0"
+                           Spacing="20">
+
+     <Button Text="Pindah Ke halaman Calculator" Clicked="Navigation_Button"/>   
+
+    </StackLayout>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Default" Text="0" Priority="0"></ToolbarItem>
+        <ToolbarItem Order="Primary" Text="1" Priority="1"></ToolbarItem>
+        <ToolbarItem Order="Secondary" Text="Satu" Priority="2"></ToolbarItem>
+        <ToolbarItem Order="Secondary" Text="dua" Priority="2"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <!--<ContentPage.Content>
+        <StackLayout BindingContext="{x:Static sys:DateTime.Now}"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+
+            <Label Text="{Binding Year, StringFormat='The year is {0}'}" />
+            <Label Text="{Binding StringFormat='The month is {0:MMMM}'}" />
+            <Label Text="{Binding Day, StringFormat='The day is {0}'}" />
+            <Label Text="{Binding StringFormat='The time is {0:T}'}" />
+
+        </StackLayout>
+    </ContentPage.Content>-->
+</ContentPage>
