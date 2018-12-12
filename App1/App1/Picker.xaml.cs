@@ -17,7 +17,7 @@ namespace App1
 		public Picker ()
 		{
 			InitializeComponent ();
-
+            NavigationPage.SetHasNavigationBar(this, false);
             BindingContext = new PickerViewModel();
         }
 

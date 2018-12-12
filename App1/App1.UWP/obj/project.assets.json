@@ -514,6 +514,161 @@
           }
         }
       },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1997,6 +2152,161 @@
           "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll": {},
           "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll": {},
           "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
         }
       },
       "System.Buffers/4.3.0": {
@@ -3534,6 +3844,161 @@
           "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -4882,6 +5347,161 @@
         },
         "runtime": {
           "lib/uap10.0/SkiaSharp.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
         }
       },
       "System.Buffers/4.3.0": {
@@ -6365,6 +6985,161 @@
           "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll": {},
           "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll": {},
           "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
         }
       },
       "System.Buffers/4.3.0": {
@@ -7902,6 +8677,161 @@
           "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll": {}
         }
       },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -9430,6 +10360,161 @@
           "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll": {},
           "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll": {},
           "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
         }
       },
       "System.Buffers/4.3.0": {
@@ -10965,6 +12050,161 @@
           "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll": {},
           "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll": {},
           "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Buttons.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Compression/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.4.0.40-beta"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.Data.Portable.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Compression": "16.3.0.29",
+          "Syncfusion.Xamarin.Pdf": "16.3.0.29",
+          "Syncfusion.Xamarin.SfDataGrid": "16.3.0.29",
+          "Syncfusion.Xamarin.XlsIO": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "compile": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Syncfusion.SfInput.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll": {},
+          "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll": {},
+          "lib/uap10.0/Syncfusion.SfShared.UWP.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Syncfusion.Xamarin.Compression": "16.3.0.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {}
         }
       },
       "System.Buffers/4.3.0": {
@@ -16606,6 +17846,332 @@
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
       ]
     },
+    "Syncfusion.Licensing/16.4.0.40-beta": {
+      "sha512": "WrO3IvYkJdDrr5/VmTkcXIMqXAeaSnf39GPS3JspCMMSiuE66ZJd85xyV9W6lS/7rIiqLJOVbx+BtrxCZj/0Vw==",
+      "type": "package",
+      "path": "syncfusion.licensing/16.4.0.40-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+      "sha512": "YYFKodDgvnK8ib/HkocXjfT+qpqvPq/kPMwGIv/SvxnV8lr6lqok/19knjaR1uDQxteXUtxoAbDPyyzF5e0ozQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.buttons/16.4.0.40-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Buttons.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Buttons.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Buttons.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Buttons.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.Buttons.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.Buttons.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Buttons.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Buttons.XForms.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Assets/SfButton.ttf",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Assets/sfbutton_Segoe MDL2 Assets.ttf",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Properties/Syncfusion.Buttons.XForms.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Syncfusion.Buttons.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Themes/Generic.xaml",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Themes/Generic.xbf",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.dll",
+        "lib/uap10.0/Syncfusion.Buttons.XForms.xml",
+        "syncfusion.xamarin.buttons.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.buttons.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Compression/16.3.0.29": {
+      "sha512": "ms6CpWu1LYL+Um+QWT+8I1lR4kCEhZl7J4LX/dCe6swAP6B/C6jnMWjvdC/xDIWzJEFIMx+7qBLV3/ciSqtOYA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.compression/16.3.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard1.0/Syncfusion.Compression.Portable.xml",
+        "lib/netstandard1.4/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard1.4/Syncfusion.Compression.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Compression.Portable.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.xml",
+        "syncfusion.xamarin.compression.16.3.0.29.nupkg.sha512",
+        "syncfusion.xamarin.compression.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+      "sha512": "/JC1IWXeM9Hibqil0hAQnZyP94wC3l5fz3OS/OjIP4DgTLkzqUK4bfmKM3iIUuX/KL+ZNY00uwagSVDdDMkOcg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/16.4.0.40-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleCollapsedIcon.xbf",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xbf",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+      "sha512": "WpXlcqmCzuiZcZMTv9xVcpoBk14NSM4EtP+OksYIb4TGiinTXlQTDyWS0i3FrEhY4AHmI/HnrRSPQ3WUhBxh+w==",
+      "type": "package",
+      "path": "syncfusion.xamarin.gridcommon/16.4.0.40-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll",
+        "lib/netstandard1.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/netstandard1.0/Syncfusion.GridCommon.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.dll",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
+        "syncfusion.xamarin.gridcommon.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Pdf/16.3.0.29": {
+      "sha512": "v2XtdawT8USm3XmM5t0xoi2N7vd2Ka/iMepmbCF+Xnz19Mrwi4Dd1MHP69H8dS5KrgMbKGgpObpFs+myxKX5eg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.pdf/16.3.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/Syncfusion.Pdf.Portable.XML",
+        "lib/netstandard1.0/Syncfusion.Pdf.Portable.dll",
+        "lib/netstandard1.4/Syncfusion.Pdf.Portable.XML",
+        "lib/netstandard1.4/Syncfusion.Pdf.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.Pdf.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.dll",
+        "syncfusion.xamarin.pdf.16.3.0.29.nupkg.sha512",
+        "syncfusion.xamarin.pdf.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+      "sha512": "bMD5dnPV2qOSvoM95RBhR7PhIYx9h/DQIXW+HLJcR8yaofVRtH++rVhK5EBQGI1eQhEB9RFsC/Eh7DYLPXJFOA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfautocomplete/16.4.0.40-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfAutoComplete.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfAutoComplete.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfAutoComplete.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfAutoComplete.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.iOS.xml",
+        "lib/netstandard1.0/Syncfusion.SfAutoComplete.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.SfAutoComplete.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfAutoComplete.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfAutoComplete.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfAutoComplete.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/DeviceFamily-Mobile/Themes/InputStyles.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/DeviceFamily-Mobile/Themes/InputStyles.xbf",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Properties/Syncfusion.SfInput.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfShared.UWP.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/InputStyles.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/InputStyles.xbf",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/generic.xbf",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Properties/Syncfusion.SfShared.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
+        "syncfusion.xamarin.sfautocomplete.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.sfautocomplete.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+      "sha512": "QWp92w+1iGdrr7KDeF6My/Gj9iQ3QlBEMWhvp4XXg+I0v4hTVZeNe7n1HfMQl8LtFUcXt2x6DM6vqhtlJtDqFg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfdatagrid/16.4.0.40-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Data.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.Data.Portable.dll",
+        "lib/MonoAndroid10/Syncfusion.SfDataGrid.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfDataGrid.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfDataGrid.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Data.Portable.XML",
+        "lib/Xamarin.Mac/Syncfusion.Data.Portable.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfDataGrid.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfDataGrid.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Data.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.Data.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.xml",
+        "lib/netstandard1.0/Syncfusion.Data.Portable.XML",
+        "lib/netstandard1.0/Syncfusion.Data.Portable.dll",
+        "lib/netstandard1.0/Syncfusion.SfDataGrid.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.SfDataGrid.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Data.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Data.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfDataGrid.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfDataGrid.XForms.xml",
+        "lib/uap10.0/Syncfusion.Data.Portable.XML",
+        "lib/uap10.0/Syncfusion.Data.Portable.dll",
+        "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfDataGrid.XForms.xml",
+        "syncfusion.xamarin.sfdatagrid.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.sfdatagrid.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfGridConverter/16.3.0.29": {
+      "sha512": "0ba85nLFssQNgibk+Ed6Pbqj+o92Yg6vFabp+IeWjjA7mKTkmru8pXF7+kSIDO2s7AtXuAURN1aOO+76dgsMEg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfgridconverter/16.3.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfGridConverter.XForms.XML",
+        "lib/MonoAndroid10/Syncfusion.SfGridConverter.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfGridConverter.XForms.XML",
+        "lib/Xamarin.Mac/Syncfusion.SfGridConverter.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfGridConverter.XForms.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfGridConverter.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.SfGridConverter.XForms.XML",
+        "lib/netstandard1.0/Syncfusion.SfGridConverter.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGridConverter.XForms.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGridConverter.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfGridConverter.XForms.XML",
+        "lib/uap10.0/Syncfusion.SfGridConverter.XForms.dll",
+        "syncfusion.xamarin.sfgridconverter.16.3.0.29.nupkg.sha512",
+        "syncfusion.xamarin.sfgridconverter.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+      "sha512": "SPQwGxj9+u9zpBqf/q7Tfel2hpd2B5zqPPaIlJEGw48o9Q/YoBC1GIuX4sXAYQ65PQP4BSsS9fjdX1W7Pk7zsg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfnumerictextbox/16.4.0.40-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfNumericTextBox.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfNumericTextBox.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.XML",
+        "lib/Xamarin.iOS10/Syncfusion.SfNumericTextBox.iOS.dll",
+        "lib/netstandard1.0/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfInput.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/DeviceFamily-Mobile/Themes/InputStyles.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/DeviceFamily-Mobile/Themes/InputStyles.xbf",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Properties/Syncfusion.SfInput.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfInput.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Syncfusion.SfShared.UWP.xml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/InputStyles.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/InputStyles.xbf",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.SfInput.UWP/Themes/generic.xbf",
+        "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfShared.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Properties/Syncfusion.SfShared.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xaml",
+        "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
+        "syncfusion.xamarin.sfnumerictextbox.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.sfnumerictextbox.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.XlsIO/16.3.0.29": {
+      "sha512": "VNNEIQnjZXN9c1cl7DmXKmFfYA5mvQSAu6lHhf048FCYo7cFIw1BkgIgfV5N1jyntSn9+mjh5yKq06cJUhUCUA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.xlsio/16.3.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.0/Syncfusion.XlsIO.Portable.dll",
+        "lib/netstandard1.0/Syncfusion.XlsIO.Portable.xml",
+        "lib/netstandard1.4/Syncfusion.XlsIO.Portable.dll",
+        "lib/netstandard1.4/Syncfusion.XlsIO.Portable.xml",
+        "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.XlsIO.Portable.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.XlsIO.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.XlsIO.Portable.xml",
+        "syncfusion.xamarin.xlsio.16.3.0.29.nupkg.sha512",
+        "syncfusion.xamarin.xlsio.nuspec"
+      ]
+    },
     "System.Buffers/4.3.0": {
       "sha512": "ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
       "type": "package",
@@ -19062,6 +20628,10 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 12.0.1",
+      "Syncfusion.Xamarin.Buttons >= 16.4.0.40-beta",
+      "Syncfusion.Xamarin.SfAutoComplete >= 16.4.0.40-beta",
+      "Syncfusion.Xamarin.SfDataGrid >= 16.4.0.40-beta",
+      "Syncfusion.Xamarin.SfGridConverter >= 16.3.0.29",
       "System.Net.Http >= 4.3.4",
       "Xam.Plugin.Iconize >= 3.4.0.103",
       "Xam.Plugin.Iconize.FontAwesome >= 3.4.0.103",
@@ -19098,7 +20668,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        "https://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {}
       },
       "frameworks": {
         "uap10.0.16299": {
@@ -19124,6 +20694,22 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.1, )"
+          },
+          "Syncfusion.Xamarin.Buttons": {
+            "target": "Package",
+            "version": "[16.4.0.40-beta, )"
+          },
+          "Syncfusion.Xamarin.SfAutoComplete": {
+            "target": "Package",
+            "version": "[16.4.0.40-beta, )"
+          },
+          "Syncfusion.Xamarin.SfDataGrid": {
+            "target": "Package",
+            "version": "[16.4.0.40-beta, )"
+          },
+          "Syncfusion.Xamarin.SfGridConverter": {
+            "target": "Package",
+            "version": "[16.3.0.29, )"
           },
           "System.Net.Http": {
             "target": "Package",

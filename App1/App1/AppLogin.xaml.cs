@@ -122,8 +122,9 @@ namespace App1
             Device.StartTimer(TimeSpan.FromSeconds(5), () =>
             {
                 this.IsBusy = false;
-                
-                Navigation.PushAsync(new Calculator());//pindah halaman ke calculator
+
+                Navigation.PushAsync(new App1.PageTabbed(), false);
+                //Navigation.PushAsync(new Calculator());//pindah halaman ke calculator
                 return false; // True = Repeat again, False = Stop the timer
             });
             

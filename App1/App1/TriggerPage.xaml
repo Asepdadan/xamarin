@@ -2,14 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App1"
-             x:Class="App1.TriggerPage">
+             x:Class="App1.TriggerPage"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"             
+             >
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:MyMultiTriggerConverter x:Key="dataHasBeenEntered" />
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <ContentPage.Content>
+    <!--<ContentPage.Content>
+        
         <StackLayout  HorizontalOptions="Center" Spacing="20" Padding="20,80,20,0"
                 >
             <Label Text="Simple MultiTrigger for Button with Entry MVVM First Demo's #15" TextColor="#32a3c7" HorizontalTextAlignment="Center" FontSize="Large"/>
@@ -42,5 +45,11 @@
                 </Button.Triggers>
             </Button>
         </StackLayout>
+    </ContentPage.Content>-->
+   
+    <ContentPage.Content>
+        <syncfusion:SfDataGrid x:Name="dataGrid"
+                               ItemsSource="{Binding OrderInfoCollection}">
+        </syncfusion:SfDataGrid>
     </ContentPage.Content>
 </ContentPage>

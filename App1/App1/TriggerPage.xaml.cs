@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Syncfusion.SfAutoComplete.XForms;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using App1.Model;
 
 namespace App1
 {
@@ -19,7 +20,10 @@ namespace App1
 
             BindingContext = new MyTriggerViewModel();
 
-            loginButton.Clicked += LoginButton_Clicked;
+            //loginButton.Clicked += LoginButton_Clicked;
+
+            OrderInfoRepository viewModel = new OrderInfoRepository();
+            dataGrid.ItemsSource = viewModel.OrderInfoCollection;
         }
 
         async void LoginButton_Clicked(object sender, EventArgs e)
