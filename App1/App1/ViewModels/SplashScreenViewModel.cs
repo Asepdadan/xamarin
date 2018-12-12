@@ -29,7 +29,7 @@ namespace App1.ViewModels
 
             sub.Children.Add(splashimage);
 
-            this.BackgroundColor = Color.FromHex("#429de3");
+            this.BackgroundColor = Color.FromHex("#429de1");
             this.Content = sub;
         }
         

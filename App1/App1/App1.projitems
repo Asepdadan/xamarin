@@ -32,6 +32,10 @@
       <DependentUpon>Date.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)DetailMasterLearning.xaml.cs">
+      <DependentUpon>DetailMasterLearning.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -50,6 +54,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)MasterDetailPage1MenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)FMasterDetailPage\MasterPageItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\DataSource.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\light.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\MasterPageItem.cs" />
@@ -62,6 +67,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MyMultiTriggerConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)NewFolder\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)PageTabbed.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PageTab.xaml.cs">
       <DependentUpon>PageTab.xaml</DependentUpon>
@@ -157,6 +170,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)PageTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)DetailMasterLearning.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)NewFolder\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)NewFolder\Page2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

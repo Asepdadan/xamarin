@@ -13,8 +13,8 @@ namespace App1
         {
             InitializeComponent();
 
-            //MainPage = new NavigationPage(new SplashScreenViewModel());
-            MainPage = new TriggerPage();
+            MainPage = new NavigationPage(new SplashScreenViewModel());
+            //MainPage = new DetailMasterLearning();
             //MainPage = new App1.PageTabbed();
         }
 

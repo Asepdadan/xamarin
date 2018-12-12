@@ -24,8 +24,8 @@ namespace App1
 		{
 			InitializeComponent ();
             this.InitializeComponent();
-            //BindingContext = new LoginViewModel();
-            BindingContext = this;
+            BindingContext = new LoginViewModel();
+            //BindingContext = this;
             this.IsBusy = false;//binding active indicator
             this.button_pindah.IsVisible = true;
             this.button_pindah.Clicked += BtnPindah_Clicked;

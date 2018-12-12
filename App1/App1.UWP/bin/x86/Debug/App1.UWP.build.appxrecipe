@@ -541,6 +541,63 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\skiasharp\1.60.3\lib\uap10.0\SkiaSharp.dll">
       <PackagePath>SkiaSharp.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.licensing\16.4.0.40-beta\lib\uap10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.buttons\16.4.0.40-beta\lib\uap10.0\Syncfusion.Buttons.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.buttons\16.4.0.40-beta\lib\uap10.0\Syncfusion.Buttons.XForms.dll">
+      <PackagePath>Syncfusion.Buttons.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.compression\16.3.0.29\lib\netstandard2.0\Syncfusion.Compression.Portable.dll">
+      <PackagePath>Syncfusion.Compression.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.core\16.4.0.40-beta\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.core\16.4.0.40-beta\lib\uap10.0\Syncfusion.Core.XForms.dll">
+      <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.gridcommon\16.4.0.40-beta\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
+      <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.pdf\16.3.0.29\lib\netstandard2.0\Syncfusion.Pdf.Portable.dll">
+      <PackagePath>Syncfusion.Pdf.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfAutoComplete.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.dll">
+      <PackagePath>Syncfusion.SfAutoComplete.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
+      <PackagePath>Syncfusion.SfInput.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfautocomplete\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
+      <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.4.0.40-beta\lib\uap10.0\Syncfusion.Data.Portable.dll">
+      <PackagePath>Syncfusion.Data.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfDataGrid.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfDataGrid.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfdatagrid\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfDataGrid.XForms.dll">
+      <PackagePath>Syncfusion.SfDataGrid.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfgridconverter\16.3.0.29\lib\uap10.0\Syncfusion.SfGridConverter.XForms.dll">
+      <PackagePath>Syncfusion.SfGridConverter.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfNumericTextBox.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfNumericTextBox.XForms.dll">
+      <PackagePath>Syncfusion.SfNumericTextBox.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.xlsio\16.3.0.29\lib\netstandard2.0\Syncfusion.XlsIO.Portable.dll">
+      <PackagePath>Syncfusion.XlsIO.Portable.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xam.plugin.iconize\3.4.0.103\lib\uap10.0.16299\Plugin.Iconize.dll">
       <PackagePath>Plugin.Iconize.dll</PackagePath>
     </AppxPackagedFile>
@@ -690,6 +747,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.buttons\16.4.0.40-beta\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.buttons\16.4.0.40-beta\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Assets\SfButton.ttf">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Assets\SfButton.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.buttons\16.4.0.40-beta\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Assets\sfbutton_Segoe MDL2 Assets.ttf">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Assets\sfbutton_Segoe MDL2 Assets.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.buttons\16.4.0.40-beta\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.Buttons.XForms.UWP\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.core\16.4.0.40-beta\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.core\16.4.0.40-beta\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf">
+      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.core\16.4.0.40-beta\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf">
+      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfInput.UWP\Themes\generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf">
+      <PackagePath>Syncfusion.SfInput.UWP\DeviceFamily-Mobile\Themes\InputStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfInput.UWP\Themes\InputStyles.xbf">
+      <PackagePath>Syncfusion.SfInput.UWP\Themes\InputStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.sfnumerictextbox\16.4.0.40-beta\lib\uap10.0\Syncfusion.SfShared.UWP\Themes\generic.xbf">
+      <PackagePath>Syncfusion.SfShared.UWP\Themes\generic.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xam.plugin.iconize.fontawesome\3.4.0.103\lib\uap10.0.16299\Plugin.Iconize.FontAwesome\iconize-fontawesome-brands.ttf">
       <PackagePath>Plugin.Iconize.FontAwesome\iconize-fontawesome-brands.ttf</PackagePath>

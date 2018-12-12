@@ -9,7 +9,7 @@ namespace App1.ViewModels
 {
     public class LoginViewModel 
     {
-        String username = "";
+        String username = "asdan15";
         String password = "";
         
         public LoginViewModel() { }
