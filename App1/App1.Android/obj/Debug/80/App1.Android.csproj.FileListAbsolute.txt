@@ -1,5 +1,0 @@
-C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\80\MonoAndroid,Version=v8.0.AssemblyAttributes.cs
-C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\80\App1.Android.nuget.stamp
-C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\80\App1.Android.csprojAssemblyReference.cache
-C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\80\libraryimports.cache.stamp
-C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\80\res.flag

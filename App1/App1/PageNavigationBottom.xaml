@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.PageNavigationBottom"
+            xmlns:local="clr-namespace:App1"
+            BarBackgroundColor="BlueViolet"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement ="Bottom"
+             android:TabbedPage.BarItemColor="#999999"
+            android:TabbedPage.BarSelectedItemColor="Black"
+            android:TabbedPage.IsSmoothScrollEnabled="True"
+            >
+
+    <TabbedPage.Children>
+        <NavigationPage Title="Favorite" Icon="baseline_favorite_black_18.png">
+            <x:Arguments>
+                <local:Picker />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Nearby" Icon="baseline_place_black_18.png">
+            <x:Arguments>
+                <local:MyListPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Profil" Icon="baseline_person_black_18.png">
+            <x:Arguments>
+                <local:DetailMasterLearning />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

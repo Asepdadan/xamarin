@@ -1,5 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.App1" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
-	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23" />
-	<application android:label="App1.Android" android:icon="@drawable/twitter_1"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.App1" android:installLocation="preferExternal" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.camera" android:required="true" />	
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<application android:label="App1.Android" android:icon="@drawable/twitter_1">
+    <provider android:name="android.support.v4.content.FileProvider"
+          android:authorities="${applicationId}.fileprovider"
+          android:exported="false"
+          android:grantUriPermissions="true">
+
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                       android:resource="@xml/file_paths"></meta-data>
+    </provider>
+  </application>
+  
 </manifest>

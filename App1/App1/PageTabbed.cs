@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿
+using Xamarin.Forms;
+
 
 namespace App1
 {

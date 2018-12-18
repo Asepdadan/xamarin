@@ -3,6 +3,13 @@ using System;
 using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using App1.cobaCamera;
+using BottomBar.XamarinForms;
+using App1.EventClick;
+using App1.TableView;
+using App1.DataPage;
+using App1.CustomRender;
+using App1.Websocket;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace App1
@@ -13,9 +20,13 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new SplashScreenViewModel());
+            //MainPage = new NavigationPage(new SplashScreenViewModel());
             //MainPage = new DetailMasterLearning();
             //MainPage = new App1.PageTabbed();
+            //MainPage = new ClickButton();
+            MainPage = new NavigationPage(new PubNub());
+
+
         }
 
         protected override void OnStart()

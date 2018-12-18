@@ -32,7 +32,6 @@ namespace App1.ViewModels
 
             };
 
-
         }
     }
 }

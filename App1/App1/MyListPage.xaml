@@ -7,16 +7,8 @@
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0">
             <SearchBar TextChanged="Handle_TextChanged"></SearchBar>
-            <Button Text="&#xf07a;" HeightRequest="100" BackgroundColor="DarkRed" TextColor="White" FontSize="36">
-                <Button.FontFamily>
-                    <OnPlatform x:TypeArguments="x:String" Android="fa-regular-400.ttf#Font Awesome 5 Free Regular" iOS="Font Awesome 5 Free" />
-                </Button.FontFamily>
-            </Button>
-            <Label Text="&#xf07a;" HeightRequest="100" BackgroundColor="White" TextColor="Black" FontSize="36">
-                <Label.FontFamily>
-                    <OnPlatform x:TypeArguments="x:String" Android="fa-regular-400.ttf#Font Awesome 5 Free Regular" iOS="Font Awesome 5 Free" />
-                </Label.FontFamily>
-            </Label>
+            <Button Text="Add Text" x:Name="Button_Add" ></Button>
+            
             <ListView  ItemsSource="{Binding MyListCollector}" 
                        IsPullToRefreshEnabled="True" 
                        x:Name="EmployeeListView" 

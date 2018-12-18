@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.EventClick.ClickButton">
+    <ContentPage.Content>
+        <StackLayout x:Name="stack">
+            <ListView x:Name="listViewDynamic" ItemsSource="{Binding MyListCollector}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding MyName}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="add" Text="Tambah"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

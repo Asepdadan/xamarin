@@ -28,14 +28,35 @@
     <AppxPackagedFile Include="C:\Users\User\source\repos\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
       <PackagePath>entrypoint\App1.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\carouselview\7.0.3.1\lib\netstandard2.0\CarouselView.dll">
+      <PackagePath>CarouselView.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\carouselview.formsplugin\5.2.0\lib\UAP10\CarouselView.FormsPlugin.Abstractions.dll">
+      <PackagePath>CarouselView.FormsPlugin.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\carouselview.formsplugin\5.2.0\lib\UAP10\CarouselView.FormsPlugin.UWP.dll">
+      <PackagePath>CarouselView.FormsPlugin.UWP.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\modernhttpclient\2.4.2\lib\Portable-Net45+WinRT45+WP8+WPA81\ModernHttpClient.dll">
+      <PackagePath>ModernHttpClient.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\portable.bouncycastle\1.8.1.2\lib\netstandard1.3\BouncyCastle.Crypto.dll">
+      <PackagePath>BouncyCastle.Crypto.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\pubnubpcl\4.0.24\lib\netstandard2.0\PubnubPCL.dll">
+      <PackagePath>PubnubPCL.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -613,6 +634,12 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xam.plugin.iconize.simplelineicons\3.4.0.103\lib\uap10.0.16299\Plugin.Iconize.SimpleLineIcons.dll">
       <PackagePath>Plugin.Iconize.SimpleLineIcons.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xam.plugin.media\4.0.1.5\lib\uap10.0.10240\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xam.plugins.forms.imagecircle\3.0.0.6-beta\lib\uap10.0.16299\ImageCircle.Forms.Plugin.dll">
+      <PackagePath>ImageCircle.Forms.Plugin.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -624,6 +651,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms.carouselview\2.3.0-pre2\lib\uap10.0\Xamarin.Forms.CarouselView.dll">
+      <PackagePath>Xamarin.Forms.CarouselView.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms.pages\4.0.0.8055-pre1\lib\netstandard2.0\Xamarin.Forms.Pages.dll">
+      <PackagePath>Xamarin.Forms.Pages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms.theme.base\1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Theme.Base.dll">
+      <PackagePath>Xamarin.Forms.Theme.Base.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms.theme.dark\1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Theme.Dark.dll">
+      <PackagePath>Xamarin.Forms.Theme.Dark.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.forms.theme.light\1.0.0.43-pre1\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Theme.Light.dll">
+      <PackagePath>Xamarin.Forms.Theme.Light.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\source\repos\App1\App1\App1.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -747,6 +789,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\carouselview.formsplugin\5.2.0\lib\UAP10\CarouselView.FormsPlugin.UWP\CarouselView.FormsPlugin.UWP.xr.xml">
+      <PackagePath>CarouselView.FormsPlugin.UWP\CarouselView.FormsPlugin.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.buttons\16.4.0.40-beta\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.Buttons.XForms.UWP\Syncfusion.Buttons.XForms.UWP.xr.xml</PackagePath>

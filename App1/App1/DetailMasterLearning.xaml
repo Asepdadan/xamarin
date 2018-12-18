@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:App1"
              x:Class="App1.DetailMasterLearning"
              Title="App"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+
              >
     <MasterDetailPage.ToolbarItems>
         <ToolbarItem Name="MenuItem1" Order="Primary" Icon="baseline_search_black_18.png" Clicked="Search_Button" Text="Item 1" Priority="0" />
@@ -12,35 +14,45 @@
         <ToolbarItem Name="MenuItem3" Order="Secondary" Icon="Xamarin.png" Text="Item 2" Priority="1" />
     </MasterDetailPage.ToolbarItems>
     
-    <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10">
-            <Image Source="icon.png">
-                <Image.GestureRecognizers>
-                    
-                </Image.GestureRecognizers>
-            </Image>
-            <Label Text="3.2.0" FontSize="16" TextColor="Black" VerticalTextAlignment="Center" />
-        </StackLayout>
-    </NavigationPage.TitleView>
 
     <MasterDetailPage.Master>
         
         <ContentPage Title="Master">
             <ContentPage.Content>
                 <StackLayout Margin="0,0,0,0" Orientation="Vertical">
-                    <StackLayout >
+                    <AbsoluteLayout Margin="0,0,0,0" >
                         <!--<Label Text="{Binding Header}"/>-->
 
-                        <Image HeightRequest="200"  Source="{Binding Image}" Aspect="Fill"/>
-                        
-                        <Label Text="{Binding Footer}"/>
-                    </StackLayout>
+                        <Image HeightRequest="200"  Source="{Binding Image}" Aspect="Fill"
+                               />
+                        <Grid Padding="10,10,10,10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50" />
+                                <RowDefinition Height="85" />
+                                <RowDefinition Height="20" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            
+                            <controls:CircleImage Grid.Row="0" Grid.Column="0" VerticalOptions="Start" HorizontalOptions="Start" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Samir_Guesmi_Cabourg_2016.jpg/220px-Samir_Guesmi_Cabourg_2016.jpg" Aspect="AspectFill"
+                                                  WidthRequest="130" HeightRequest="125"
+                                                  BorderColor="White" BorderThickness="2">
+                            </controls:CircleImage>
 
-                    <ListView x:Name="navigationDrawerList" RowHeight="55" SeparatorVisibility="Default"
+                            <Label Grid.Row="1" Grid.Column="1" Text="Drawer Text" VerticalOptions="End" HorizontalOptions="End" FontSize="25"></Label>
+                            <Label Grid.Row="2" Grid.Column="1" Text="{Binding Footer}" VerticalOptions="Start" HorizontalOptions="Start"/>
+                            
+                        </Grid>
+
+                    </AbsoluteLayout>
+
+                    <ListView x:Name="navigationDrawerList" RowHeight="40" SeparatorVisibility="Default"
                               ItemSelected="OnMenuSelected">
                         <ListView.ItemTemplate >
                             <DataTemplate >
-                                <ViewCell Height="5">
+                                <ViewCell>
                                     <StackLayout VerticalOptions="FillAndExpand"
                                                  HorizontalOptions="FillAndExpand"
                                                  Orientation="Horizontal"

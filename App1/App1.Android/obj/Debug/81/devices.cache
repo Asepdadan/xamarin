@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
   <Device id="888dc4687cf4">
-    <ResultingAbi></ResultingAbi>
+    <ResultingAbi>arm64-v8a</ResultingAbi>
     <SdkVersion>25</SdkVersion>
   </Device>
   <Device id="emulator-5554">
-    <ResultingAbi>x86_64</ResultingAbi>
+    <ResultingAbi></ResultingAbi>
     <SdkVersion>23</SdkVersion>
+  </Device>
+  <Device id="emulator-5556">
+    <ResultingAbi></ResultingAbi>
+    <SdkVersion>23</SdkVersion>
+  </Device>
+  <Device id="4df1653b65039f17">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>19</SdkVersion>
   </Device>
 </Devices>

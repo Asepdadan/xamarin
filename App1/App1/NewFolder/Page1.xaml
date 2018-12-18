@@ -2,14 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.NewFolder.Page1"
-             
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              >
-    
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Page 1!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="0,5"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <ContentView Grid.Row="0">
+            <controls:CarouselViewControl x:Name="MainCarouselView"
+                ShowArrows="False" 
+                ShowIndicators="True"
+                >
+                <controls:CarouselViewControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                             </Grid.RowDefinitions>
+
+                            <ContentView Grid.Row="0" Padding="60,30,60,0">
+                                <Image Source="{Binding Image}" Aspect="AspectFit"></Image>
+                            </ContentView>
+
+                            <ContentView Grid.Row="1" Padding="20,10,20,50">
+                                <Label Text="{Binding Description}"  HorizontalTextAlignment="Center"
+                                    ></Label>
+                            </ContentView>
+                            
+                        </Grid>
+                    </DataTemplate>
+                </controls:CarouselViewControl.ItemTemplate>
+            </controls:CarouselViewControl>
+        </ContentView>
+    </Grid>
 </ContentPage>
