@@ -24,6 +24,7 @@ namespace App1
             //MainPage = new DetailMasterLearning();
             //MainPage = new App1.PageTabbed();
             //MainPage = new ClickButton();
+            //MainPage = new NavigationPage(new CustomContentPageCS());//camera
             MainPage = new NavigationPage(new PubNub());
 
 

@@ -64,15 +64,15 @@ namespace App1.EventClick
             var v = listViewDynamic.ItemsSource.Cast<object>().LastOrDefault();
             listViewDynamic.ScrollTo(v, ScrollToPosition.End, true);
 
-            string URL = "https://randomuser.me/api/?page=1&results=10";
+            //string URL = "https://randomuser.me/api/?page=1&results=10";
 
-            var httpClient = new HttpClient();
-            client.MaxResponseContentBufferSize = 256000;
-            Task<string> GetDataFromUrl = httpClient.GetStringAsync(URL);
-            string content = await GetDataFromUrl;
+            //var httpClient = new HttpClient();
+            //client.MaxResponseContentBufferSize = 256000;
+            //Task<string> GetDataFromUrl = httpClient.GetStringAsync(URL);
+            //string content = await GetDataFromUrl;
 
-            JObject getDataResult = JObject.Parse(content);
-            Debug.WriteLine(getDataResult["results"]);
+            //JObject getDataResult = JObject.Parse(content);
+            //Debug.WriteLine(getDataResult["results"]);
 
         }
     }

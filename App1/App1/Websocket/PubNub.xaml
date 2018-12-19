@@ -3,12 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Websocket.PubNub">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Message"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Entry x:Name="message"></Entry>
-            <Button x:Name="PublishPubNub" Text="Publish"></Button>
-        </StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="350" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+            
+
+                <ListView Grid.Row="0" ItemsSource="{Binding MyListCollector}"
+                       IsPullToRefreshEnabled="True" 
+                       x:Name="ChatListView" 
+                       HasUnevenRows="true" 
+                       SeparatorVisibility="Default" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding pesan}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                
+            
+            <Entry x:Name="message" Grid.Row="1"></Entry>
+            <Button x:Name="PublishPubNub" 
+                    HorizontalOptions="FillAndExpand" Grid.Row="2" Text="Publish"></Button>
+        </Grid>
+                   
     </ContentPage.Content>
 </ContentPage>

@@ -134,6 +134,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MyTriggerViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\PickerViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SplashScreenViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Websocket\MessageChat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Websocket\PubNub.xaml.cs">
       <DependentUpon>PubNub.xaml</DependentUpon>
       <SubType>Code</SubType>

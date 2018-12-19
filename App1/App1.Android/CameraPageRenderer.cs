@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-
+using System.Threading;
 using Android.App;
 using Android.Content;
 using Android.Graphics;
 using Android.Hardware;
 using Android.Hardware.Camera2;
+
 using Android.OS;
 using Android.Runtime;
 using Android.Util;
@@ -16,6 +17,7 @@ using Android.Views;
 using Android.Widget;
 using App1.CustomRender;
 using App1.Droid;
+using CarouselView.FormsPlugin.Android;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
@@ -28,13 +30,24 @@ namespace App1.Droid
     public class CameraPageRenderer : PageRenderer, TextureView.ISurfaceTextureListener
     {
         global::Android.Hardware.Camera camera;
-        global::Android.Hardware.Camera2.CameraManager cameraManager;
 
+
+        global::Android.Hardware.Camera2.CameraDevice.StateCallback StateCallback;
+        global::Android.Hardware.Camera2.CameraManager cameraManager;
+        global::Android.Hardware.Camera2.CameraCharacteristics cameraCharacteristics;
+        global::Android.Hardware.Camera2.CameraAccessException accessException;
+        global::Android.Hardware.Camera2.CameraCaptureSession captureSession;
+        global::Android.Hardware.Camera2.CameraDevice cameraDevice;
+        global::Android.Hardware.Camera2.CameraMetadata cameraMetadata;
+        global::Android.Hardware.Camera2.CaptureRequest captureRequest;
+        global::Android.Hardware.Camera2.TotalCaptureResult captureResult;
+        global::Android.Hardware.Camera2.Params.StreamConfigurationMap configurationMap;
         global::Android.Widget.Button takePhotoButton;
         global::Android.Widget.Button toggleFlashButton;
         global::Android.Widget.Button switchCameraButton;
         global::Android.Views.View view;
-        
+        global::Android.Graphics.ImageFormat imageFormat;
+
         Activity activity;
         CameraFacing cameraType;
         CameraManager cameraId;
@@ -43,10 +56,29 @@ namespace App1.Droid
         CameraCaptureSession cameraCaptureSession;
         public List<Android.Hardware.Camera.Area> getFocusAreas;
         bool flashOn;
+        Android.Hardware.Camera2.Params.StreamConfigurationMap map;
+
+        private String cameraId2;
+        protected CameraDevice cameraDevice2;
+        protected CameraCaptureSession cameraCaptureSessions2;
+        protected CaptureRequest captureRequest2;
+        protected CaptureRequest.Builder captureRequestBuilder2;
+        Thread thread;
+        public Handler mHandler;
+
+     
 
         public CameraPageRenderer(Context context) : base(context)
         {
+            thread = new Thread(new ThreadStart(ThreadProc));
+            thread.Start();
+            Looper.Prepare();
+            mHandler = new Handler()
+            {
 
+            };
+
+            Looper.Loop();
         }
 
         protected override void OnElementChanged(ElementChangedEventArgs<Page> e)
@@ -81,6 +113,7 @@ namespace App1.Droid
             textureView.SurfaceTextureListener = this;
 
 
+
         }
 
         void SetupEventHandlers()
@@ -94,7 +127,7 @@ namespace App1.Droid
             toggleFlashButton = view.FindViewById<global::Android.Widget.Button>(Resource.Id.toggleFlashButton);
             toggleFlashButton.Click += ToggleFlashButtonTapped;
 
-            
+
         }
 
         protected override void OnLayout(bool changed, int l, int t, int r, int b)
@@ -113,30 +146,72 @@ namespace App1.Droid
 
         }
 
-        
         public void OnSurfaceTextureAvailable(SurfaceTexture surface, int width, int height)
         {
-            
-            if (Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.Lollipop)
-            {
-                CameraManager cameraManager = ((CameraManager)Context.GetSystemService(Context.CameraService));
-                cameraManager.OpenCamera(cameraManager.GetCameraIdList()[0], null, null);
-            }
-            else
-            {
-                camera = global::Android.Hardware.Camera.Open((int)cameraType);
-            }
-          
-            //cameraManager.OpenCamera();
 
-            textureView.LayoutParameters = new FrameLayout.LayoutParams(width, height);
-            surfaceTexture = surface;
 
-            camera.SetPreviewTexture(surface);
-            PrepareAndStartCamera();
-            
-            
+            //camera = global::Android.Hardware.Camera.Open((int)cameraType);
+            //textureView.LayoutParameters = new FrameLayout.LayoutParams(width, height);
+            //surfaceTexture = surface;
+
+            //camera.SetPreviewTexture(surface);
+            openCamera();
         }
+
+        public static void ThreadProc()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("ThreadProc: {0}", i);
+                // Yield the rest of the time slice.
+                Thread.Sleep(0);
+            }
+        }
+
+
+        private void openCamera()
+        {
+            CameraManager manager = (CameraManager)activity.GetSystemService(Context.CameraService);
+            Log.Info("tes", "Camera Open");
+
+            try
+            {
+                cameraId2 = manager.GetCameraIdList()[0];
+                CameraCharacteristics characteristics = manager.GetCameraCharacteristics(cameraId2);
+                Log.Info("tes", "masuk ke sini bos");
+                Log.Info("tes", cameraId2);
+                
+
+                //if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                //    ActivityCompat.requestPermissions(AndroidCameraApi.this, new String[] { Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE }, REQUEST_CAMERA_PERMISSION);
+                //return;
+                //}
+
+                //if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA)
+                //    == PackageManager.PERMISSION_GRANTED)
+                //{
+                //    cameraManager.openCamera(cameraId, stateCallback, backgroundHandler);
+                //}
+
+                manager.OpenCamera(cameraId2, StateCallback, null);
+                //openCamera(cameraId, cameraDevice, null);
+            }
+            catch (CameraAccessException e)
+            {
+                e.PrintStackTrace();
+            }
+
+            //Log.e(TAG, "openCamera X");
+        }
+
+        
+
+
+        //private CameraManager getSystemService(object CameraService)
+        //{
+        //    throw new NotImplementedException();
+
+        //}
 
         public bool OnSurfaceTextureDestroyed(SurfaceTexture surface)
         {
@@ -165,8 +240,8 @@ namespace App1.Droid
                 camera.SetDisplayOrientation(180);
             }
 
-            camera.StartPreview();           
-            
+            camera.StartPreview();
+
         }
 
         void ToggleFlashButtonTapped(object sender, EventArgs e)
@@ -186,7 +261,7 @@ namespace App1.Droid
                     parameters.FlashMode = global::Android.Hardware.Camera.Parameters.FlashModeTorch;
                     camera.SetParameters(parameters);
                     camera.SetPreviewTexture(surfaceTexture);
-                    
+
                     PrepareAndStartCamera();
 
                 }
@@ -198,28 +273,33 @@ namespace App1.Droid
                 camera.Release();
 
                 camera = global::Android.Hardware.Camera.Open((int)cameraType);
-                //camera2 = global::Android.Hardware.Camera2.FlashMode;
+
+
+                var infoFocusCalibration = global::Android.Hardware.Camera2.CameraCharacteristics.LensInfoFocusDistanceCalibration;
+                var infoSupportHardLevel = global::Android.Hardware.Camera2.CameraCharacteristics.InfoSupportedHardwareLevel;
+                var infoMinimumFocus = global::Android.Hardware.Camera2.CameraCharacteristics.LensPoseRotation;
+                var infoSensorActiveArraySize = global::Android.Hardware.Camera2.CameraCharacteristics.SensorInfoActiveArraySize;
 
                 //var paramters2 = camera2.
 
                 var parameters = camera.GetParameters();
-                                
+
                 parameters.FlashMode = global::Android.Hardware.Camera.Parameters.FlashModeOff;
                 parameters.FocusMode = global::Android.Hardware.Camera.Parameters.FocusModeAuto;
-                
+
                 camera.SetParameters(parameters);
                 camera.SetPreviewTexture(surfaceTexture);
                 camera.SetDisplayOrientation(100);
                 var max = camera.GetParameters().MaxNumFocusAreas;
-                
+
                 PrepareAndStartCamera();
                 camera.StartFaceDetection();
-                
+
             }
         }
 
-        
-        
+
+
 
         void SwitchCameraButtonTapped(object sender, EventArgs e)
         {
@@ -277,12 +357,5 @@ namespace App1.Droid
         }
     }
 
-    public class Rect
-    {
-        public int bottom { get; set; }
-        public int left { get; set; }
-        public int top { get; set; }
-        public int right { get; set; }
-    }
-
+    
 }

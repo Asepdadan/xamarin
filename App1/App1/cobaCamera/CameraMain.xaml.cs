@@ -17,17 +17,7 @@ namespace App1.cobaCamera
 		{
 			InitializeComponent ();
 
-            Content = new StackLayout
-            {
-                Children = {
-                    new Label { Text = "Camera Preview:" },
-                    new CameraPreview {
-                            Camera = CameraOptions.Rear,
-                            HorizontalOptions = LayoutOptions.FillAndExpand,
-                            VerticalOptions = LayoutOptions.FillAndExpand
-                        }
-                    }
-                };
+            
         }
 	}
 }

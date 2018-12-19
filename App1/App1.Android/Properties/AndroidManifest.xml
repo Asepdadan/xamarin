@@ -7,6 +7,7 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.camera" android:required="true" />	
 	<uses-feature android:name="android.hardware.camera.autofocus" />
+  <uses-feature android:name="android.hardware.camera2.full" />
 	<application android:label="App1.Android" android:icon="@drawable/twitter_1">
     <provider android:name="android.support.v4.content.FileProvider"
           android:authorities="${applicationId}.fileprovider"
