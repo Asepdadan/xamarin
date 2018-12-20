@@ -349,3 +349,11 @@ C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Sy
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\ModernHttpClient.dll.mdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Iconize.dll.mdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Iconize.FontAwesome.dll.mdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Iconize.Ionicons.dll.mdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Iconize.Material.dll.mdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Iconize.SimpleLineIcons.dll.mdb
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

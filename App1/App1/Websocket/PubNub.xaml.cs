@@ -85,7 +85,7 @@ namespace App1.Websocket
                         MyListCollector.Add(
                             new MessageChat()
                             {
-                                pesan = msg
+                                pesan = jsonString
                             }   
                         );
                     }
@@ -159,8 +159,16 @@ namespace App1.Websocket
             pubnub.AddListener(subscribeCallback);
             pubnub.Subscribe<string>()
             .Channels(new string[]{
-                    "Channel-r03qex9fw"
+               "Channel-r03qex9fw"
             }).Execute();
+
+            pubnub.History()
+            .Channel("Channel-r03qex9fw") // where to fetch history from
+            .Count(100) // how many items to fetch
+            .Async(new PNHistoryResultExt(
+                (result, status) => {
+                }
+            ));
         }
 
         public static void ThreadProc()
