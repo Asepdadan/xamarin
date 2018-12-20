@@ -1,3 +1,4 @@
+System.Runtime
 BottomBar.Droid
 BottomBar.XamarinForms
 BottomNavigationBar
@@ -42,7 +43,6 @@ Syncfusion.SfNumericTextBox.XForms
 Syncfusion.XlsIO.Portable
 System.Net.Http.Extensions
 System.Net.Http.Primitives
-System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime

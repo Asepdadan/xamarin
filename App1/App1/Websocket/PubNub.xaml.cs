@@ -17,15 +17,17 @@ namespace App1.Websocket
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class PubNub : ContentPage
 	{
-        public PNConfiguration pnConfiguration = new PNConfiguration();
-        public Pubnub pubnub;
+        public delegate string GetResponseChat(int response);
+        PNConfiguration pnConfiguration = new PNConfiguration();
+        Pubnub pubnub;
         Dictionary<string, string> messages = new Dictionary<string, string>();
         public ObservableCollection<MessageChat> MyListCollector { get; set; }
 
         public PubNub ()
 		{
-			InitializeComponent ();
-
+            
+            InitializeComponent ();
+            
             MyListCollector = new ObservableCollection<MessageChat>()
             {
                 new MessageChat(){
@@ -37,18 +39,24 @@ namespace App1.Websocket
             PublishPubNub.Clicked += PublishPub;
 
             Console.WriteLine("Server started.");
+
             StartClient();
-
+            
         }
 
-        public static void StartClient()
+        public void StartClient()
         {
-            Thread ctThread = new Thread(Chat);
-            ctThread.Start();
+            //Thread newThread = new Thread(Chat);
+            //newThread.Start();
+            ThreadPool.QueueUserWorkItem(Chat);
         }
 
+        public async void VoidGetResponse(string Response)
+        {
+
+        }
         
-        public static void Chat()
+        private void Chat(Object stateInfo)
         {
             PNConfiguration pnConfiguration = new PNConfiguration();
             pnConfiguration.SubscribeKey = "sub-c-d6bb8a4e-4a5d-11e6-bfbb-02ee2ddab7fe";
@@ -56,6 +64,7 @@ namespace App1.Websocket
             pnConfiguration.SecretKey = "sec-c-ODQxOTE3ZjgtNzA2YS00YWM4LTljMjktN2Y2Njc0ZDJlNzFm";
             pnConfiguration.LogVerbosity = PNLogVerbosity.BODY;
             pnConfiguration.Uuid = "PubNubCSharpExampletesttste";
+
             Pubnub pubnub = new Pubnub(pnConfiguration);
 
             SubscribeCallbackExt subscribeCallback = new SubscribeCallbackExt(
@@ -73,26 +82,29 @@ namespace App1.Websocket
                         Debug.WriteLine(msg);
 
                         
-
-                        //var testc = new PubNub();
-                        //testc.MyListCollector = new ObservableCollection<MessageChat>()
-                        //{
-                        //    new MessageChat(){
-                        //        pesan = msg.ToString() ,
-                        //    },
-                        //};
+                        MyListCollector.Add(
+                            new MessageChat()
+                            {
+                                pesan = msg
+                            }   
+                        );
                     }
                 },
-                (pubnubObj, presencResult) => {
-                    if (presencResult != null)
+                (pubnubObj, presence) => {
+
+                    Debug.WriteLine("presence");
+                    Debug.WriteLine(presence);
+
+                    if (presence != null)
                     {
                         Debug.WriteLine("In Example, SusbcribeCallback received PNPresenceEventResult");
-                        Debug.WriteLine(presencResult.Channel + " " + presencResult.Occupancy + " " + presencResult.Event);
+                        Debug.WriteLine(presence.Channel + " " + presence.Occupancy + " " + presence.Event);
                     }
                 },
-                (pubnubObj, statusResult) => {
-
-                    switch (statusResult.Operation)
+                (pubnubObj, status) => {
+                    Debug.WriteLine("Status");
+                    Debug.WriteLine(status);
+                    switch (status.Operation)
                     {
                         // let's combine unsubscribe and subscribe handling for ease of use
                         case PNOperationType.PNSubscribeOperation:
@@ -100,7 +112,7 @@ namespace App1.Websocket
                             // note: subscribe statuses never have traditional
                             // errors, they just have categories to represent the
                             // different issues or successes that occur as part of subscribe
-                            switch (statusResult.Category)
+                            switch (status.Category)
                             {
                                 case PNStatusCategory.PNConnectedCategory:
                                     // this is expected for a subscribe, this means there is no error or issue whatsoever
@@ -128,7 +140,7 @@ namespace App1.Websocket
                             break;
                         case PNOperationType.PNHeartbeatOperation:
                             // heartbeat operations can in fact have errors, so it is important to check first for an error.
-                            if (statusResult.Error)
+                            if (status.Error)
                             {
                                 // There was an error with the heartbeat operation, handle here
                             }
@@ -146,10 +158,6 @@ namespace App1.Websocket
 
             pubnub.AddListener(subscribeCallback);
             pubnub.Subscribe<string>()
-            .ChannelGroups(new string[] {
-                 // subscribe to channel groups
-                "channel_group"
-            })
             .Channels(new string[]{
                     "Channel-r03qex9fw"
             }).Execute();

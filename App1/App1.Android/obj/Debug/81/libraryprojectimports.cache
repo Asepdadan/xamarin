@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\13\jl\okhttp-2.3.0-jar-with-dependencies.jar</Jar>
+    <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\10\jl\formsviewgroup.jar</Jar>
+    <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\14\jl\okhttp-2.3.0-jar-with-dependencies.jar</Jar>
     <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\45\jl\arch-core-common.jar</Jar>
     <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\46\jl\arch-lifecycle-common.jar</Jar>
     <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\47\jl\bin\classes.jar</Jar>
@@ -21,24 +22,23 @@
     <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\61\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\62\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\63\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\9\jl\formsviewgroup.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\0\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\2\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\6\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\1\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\3\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\7\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\8\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\11\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\16\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\9\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\12\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\17\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\18\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\19\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\23\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\26\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\32\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\35\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\38\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\20\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\24\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\27\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\33\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\36\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\39\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\50\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\53\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\55\jl\res</ResolvedResourceDirectory>
@@ -52,42 +52,42 @@
     <ResolvedResourceDirectory>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\69\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\0\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\2\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\6\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\1\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\3\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\7\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\8\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\11\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\16\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\9\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\12\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\17\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\18\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\19\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\23\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\26\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\32\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\35\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\81\lp\38\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\20\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\24\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\27\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\33\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\36\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\81\lp\39\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\57\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\64\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\81\lp\69\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\0.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\2.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\6.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\1.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\3.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\7.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\8.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\11.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\16.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\9.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\12.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\17.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\18.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\19.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\23.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\26.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\32.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\35.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\38.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\20.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\24.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\27.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\33.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\36.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\39.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\50.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\53.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\lp\55.stamp</ResolvedResourceDirectoryStamp>
