@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Plugin.Iconize.Ionicons" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Plugin.Iconize.Ionicons">
+				<NamedResource name="iconize-ionicons.ttf" uri="ms-resource://Plugin.Iconize.Ionicons/Files/Plugin.Iconize.Ionicons/iconize-ionicons.ttf">
+					<Candidate type="Path">
+						<Value>Plugin.Iconize.Ionicons\iconize-ionicons.ttf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -41,14 +41,6 @@ public class CarouselLayoutRenderer
 	}
 
 
-	public CarouselLayoutRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
-	{
-		super (p0, p1, p2, p3);
-		if (getClass () == CarouselLayoutRenderer.class)
-			mono.android.TypeManager.Activate ("CarouselView.Platforms.Android.CarouselLayoutRenderer, CarouselView", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
-	}
-
-
 	public void draw (android.graphics.Canvas p0)
 	{
 		n_draw (p0);

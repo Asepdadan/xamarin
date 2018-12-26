@@ -107,7 +107,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/4.0.2-beta": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
@@ -152,7 +152,7 @@
           "lib/netstandard2.0/PubnubPCL.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.4.0.40-beta": {
+      "Syncfusion.Licensing/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -161,10 +161,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Buttons/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -185,10 +185,10 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Core/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.4.0.40-beta"
+          "Syncfusion.Licensing": "16.4.0.42"
         },
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
@@ -199,7 +199,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.GridCommon/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -221,10 +221,10 @@
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -238,12 +238,12 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.42",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -273,10 +273,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfGridConverter.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -518,10 +518,10 @@
           }
         }
       },
-      "Xam.Plugin.Media/4.0.1.5": {
+      "Xam.Plugin.Media/4.1.0-beta": {
         "type": "package",
         "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
+          "Plugin.Permissions": "4.0.2-beta"
         },
         "compile": {
           "lib/xamarinios10/Plugin.Media.dll": {}
@@ -542,8 +542,11 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/4.0.0.8055-pre1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "60.1.0"
+        },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
           "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
@@ -729,6 +732,15 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/60.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
         }
       }
     },
@@ -838,7 +850,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/4.0.2-beta": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
@@ -883,7 +895,7 @@
           "lib/netstandard2.0/PubnubPCL.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.4.0.40-beta": {
+      "Syncfusion.Licensing/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -892,10 +904,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Buttons/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -916,10 +928,10 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Core/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.4.0.40-beta"
+          "Syncfusion.Licensing": "16.4.0.42"
         },
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
@@ -930,7 +942,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.GridCommon/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -952,10 +964,10 @@
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -969,12 +981,12 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.42",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -1004,10 +1016,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfGridConverter.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -1229,10 +1241,10 @@
           }
         }
       },
-      "Xam.Plugin.Media/4.0.1.5": {
+      "Xam.Plugin.Media/4.1.0-beta": {
         "type": "package",
         "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
+          "Plugin.Permissions": "4.0.2-beta"
         },
         "compile": {
           "lib/xamarinios10/Plugin.Media.dll": {}
@@ -1253,8 +1265,11 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/4.0.0.8055-pre1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "60.1.0"
+        },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
           "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
@@ -1440,6 +1455,15 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/60.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
         }
       }
     },
@@ -1549,7 +1573,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/4.0.2-beta": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
@@ -1594,7 +1618,7 @@
           "lib/netstandard2.0/PubnubPCL.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.4.0.40-beta": {
+      "Syncfusion.Licensing/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -1603,10 +1627,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Buttons/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -1627,10 +1651,10 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Core/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.4.0.40-beta"
+          "Syncfusion.Licensing": "16.4.0.42"
         },
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
@@ -1641,7 +1665,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.GridCommon/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -1663,10 +1687,10 @@
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -1680,12 +1704,12 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.42",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -1715,10 +1739,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfGridConverter.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -1940,10 +1964,10 @@
           }
         }
       },
-      "Xam.Plugin.Media/4.0.1.5": {
+      "Xam.Plugin.Media/4.1.0-beta": {
         "type": "package",
         "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
+          "Plugin.Permissions": "4.0.2-beta"
         },
         "compile": {
           "lib/xamarinios10/Plugin.Media.dll": {}
@@ -1964,8 +1988,11 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/4.0.0.8055-pre1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "60.1.0"
+        },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
           "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
@@ -2151,6 +2178,15 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/60.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
         }
       }
     },
@@ -2260,7 +2296,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
+      "Plugin.Permissions/4.0.2-beta": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Plugin.Permissions.dll": {}
@@ -2305,7 +2341,7 @@
           "lib/netstandard2.0/PubnubPCL.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.4.0.40-beta": {
+      "Syncfusion.Licensing/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -2314,10 +2350,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Buttons/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -2338,10 +2374,10 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.Core/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.4.0.40-beta"
+          "Syncfusion.Licensing": "16.4.0.42"
         },
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll": {},
@@ -2352,7 +2388,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.GridCommon/16.4.0.42": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -2374,10 +2410,10 @@
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfAutoComplete/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -2391,12 +2427,12 @@
           "lib/Xamarin.iOS10/Syncfusion.SfAutoComplete.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfDataGrid/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.GridCommon": "16.4.0.40-beta",
-          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
+          "Syncfusion.Xamarin.GridCommon": "16.4.0.42",
+          "Syncfusion.Xamarin.SfNumericTextBox": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -2426,10 +2462,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfGridConverter.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
+      "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.42": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "16.4.0.40-beta",
+          "Syncfusion.Xamarin.Core": "16.4.0.42",
           "Xamarin.Forms": "2.5.1.527436"
         },
         "compile": {
@@ -2651,10 +2687,10 @@
           }
         }
       },
-      "Xam.Plugin.Media/4.0.1.5": {
+      "Xam.Plugin.Media/4.1.0-beta": {
         "type": "package",
         "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
+          "Plugin.Permissions": "4.0.2-beta"
         },
         "compile": {
           "lib/xamarinios10/Plugin.Media.dll": {}
@@ -2675,8 +2711,11 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/4.0.0.8055-pre1": {
         "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "60.1.0"
+        },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
           "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
@@ -2862,6 +2901,15 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Theme.Light.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/60.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
         }
       }
     }
@@ -3313,25 +3361,30 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "Plugin.Permissions/3.0.0.12": {
-      "sha512": "R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
+    "Plugin.Permissions/4.0.2-beta": {
+      "sha512": "3gts+qgfPNj+JLiYQ3CKjOhW9YgdY2EcHVPHyg+bc8dCJ7XF+6WxDItRbYGjOt4gTvSKwQKQLtzAzuAr3mqwlg==",
       "type": "package",
-      "path": "plugin.permissions/3.0.0.12",
+      "path": "plugin.permissions/4.0.2-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid71/Plugin.Permissions.dll",
-        "lib/monoandroid71/Plugin.Permissions.xml",
+        "lib/monoandroid71/Plugin.Permissions.pdb",
+        "lib/monoandroid80/Plugin.Permissions.dll",
+        "lib/monoandroid80/Plugin.Permissions.pdb",
+        "lib/monoandroid81/Plugin.Permissions.dll",
+        "lib/monoandroid81/Plugin.Permissions.dll.mdb",
+        "lib/monoandroid81/Plugin.Permissions.pdb",
         "lib/netstandard1.0/Plugin.Permissions.dll",
-        "lib/netstandard1.0/Plugin.Permissions.xml",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
         "lib/netstandard2.0/Plugin.Permissions.dll",
-        "lib/netstandard2.0/Plugin.Permissions.xml",
-        "lib/uap10.0.10240/Plugin.Permissions.dll",
-        "lib/uap10.0.10240/Plugin.Permissions.pri",
-        "lib/uap10.0.10240/Plugin.Permissions.xml",
+        "lib/netstandard2.0/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.dll",
+        "lib/uap10.0.16299/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.pri",
         "lib/xamarinios10/Plugin.Permissions.dll",
-        "lib/xamarinios10/Plugin.Permissions.xml",
-        "plugin.permissions.3.0.0.12.nupkg.sha512",
+        "lib/xamarinios10/Plugin.Permissions.pdb",
+        "plugin.permissions.4.0.2-beta.nupkg.sha512",
         "plugin.permissions.nuspec",
         "readme.txt"
       ]
@@ -3378,10 +3431,10 @@
         "pubnubpcl.nuspec"
       ]
     },
-    "Syncfusion.Licensing/16.4.0.40-beta": {
-      "sha512": "WrO3IvYkJdDrr5/VmTkcXIMqXAeaSnf39GPS3JspCMMSiuE66ZJd85xyV9W6lS/7rIiqLJOVbx+BtrxCZj/0Vw==",
+    "Syncfusion.Licensing/16.4.0.42": {
+      "sha512": "OqZut8i/ASfNCQwTchGX4/cwVgrxzrD878GH2p/yBCqNtZGolZ6fdd6faFMccP2bD44/9NAp1O4Amojm5aDRow==",
       "type": "package",
-      "path": "syncfusion.licensing/16.4.0.40-beta",
+      "path": "syncfusion.licensing/16.4.0.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3400,14 +3453,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.licensing.16.4.0.42.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Buttons/16.4.0.40-beta": {
-      "sha512": "YYFKodDgvnK8ib/HkocXjfT+qpqvPq/kPMwGIv/SvxnV8lr6lqok/19knjaR1uDQxteXUtxoAbDPyyzF5e0ozQ==",
+    "Syncfusion.Xamarin.Buttons/16.4.0.42": {
+      "sha512": "PjPbv3cHWHfLTzQMlUWLZjwzdhVwUNjcQ4Up49jfusWH9motKpXgudIn4spOGSfflsDVLoPry1KRVaZC2V3NjQ==",
       "type": "package",
-      "path": "syncfusion.xamarin.buttons/16.4.0.40-beta",
+      "path": "syncfusion.xamarin.buttons/16.4.0.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3431,7 +3484,7 @@
         "lib/uap10.0/Syncfusion.Buttons.XForms.UWP/Themes/Generic.xbf",
         "lib/uap10.0/Syncfusion.Buttons.XForms.dll",
         "lib/uap10.0/Syncfusion.Buttons.XForms.xml",
-        "syncfusion.xamarin.buttons.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.buttons.16.4.0.42.nupkg.sha512",
         "syncfusion.xamarin.buttons.nuspec"
       ]
     },
@@ -3454,10 +3507,10 @@
         "syncfusion.xamarin.compression.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Core/16.4.0.40-beta": {
-      "sha512": "/JC1IWXeM9Hibqil0hAQnZyP94wC3l5fz3OS/OjIP4DgTLkzqUK4bfmKM3iIUuX/KL+ZNY00uwagSVDdDMkOcg==",
+    "Syncfusion.Xamarin.Core/16.4.0.42": {
+      "sha512": "3BpPvWQ3j+4hcomnWO9LmseI+/vkqvT+hOnHeFokVhEFdDKpmbtiEovjdPXwEqMK47wjLClaTxyr7IRKP1w12w==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/16.4.0.40-beta",
+      "path": "syncfusion.xamarin.core/16.4.0.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3482,14 +3535,14 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/ToggleIcons/ToggleVisibleIcon.xbf",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.core.16.4.0.42.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.GridCommon/16.4.0.40-beta": {
-      "sha512": "WpXlcqmCzuiZcZMTv9xVcpoBk14NSM4EtP+OksYIb4TGiinTXlQTDyWS0i3FrEhY4AHmI/HnrRSPQ3WUhBxh+w==",
+    "Syncfusion.Xamarin.GridCommon/16.4.0.42": {
+      "sha512": "zWcmGDDttYWYBMpXUMa7g1J4zgH0bHPdhilnTVM1hh81R7wmiVOihUenqSq6WJJ7JilpVL5FlF3lumIDfIKZkQ==",
       "type": "package",
-      "path": "syncfusion.xamarin.gridcommon/16.4.0.40-beta",
+      "path": "syncfusion.xamarin.gridcommon/16.4.0.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3505,7 +3558,7 @@
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.dll",
         "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
         "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
-        "syncfusion.xamarin.gridcommon.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.16.4.0.42.nupkg.sha512",
         "syncfusion.xamarin.gridcommon.nuspec"
       ]
     },
@@ -3528,10 +3581,10 @@
         "syncfusion.xamarin.pdf.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfAutoComplete/16.4.0.40-beta": {
-      "sha512": "bMD5dnPV2qOSvoM95RBhR7PhIYx9h/DQIXW+HLJcR8yaofVRtH++rVhK5EBQGI1eQhEB9RFsC/Eh7DYLPXJFOA==",
+    "Syncfusion.Xamarin.SfAutoComplete/16.4.0.42": {
+      "sha512": "kmpC/3tziYWTw8Hthq+hjHq24NaCU9P69AQh6IA15DIZ/w6NYhuDZCW4o2lmooqKRRAOsHneDh1JCljeQt0AqQ==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfautocomplete/16.4.0.40-beta",
+      "path": "syncfusion.xamarin.sfautocomplete/16.4.0.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3572,14 +3625,14 @@
         "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.xr.xml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xaml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
-        "syncfusion.xamarin.sfautocomplete.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.sfautocomplete.16.4.0.42.nupkg.sha512",
         "syncfusion.xamarin.sfautocomplete.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfDataGrid/16.4.0.40-beta": {
-      "sha512": "QWp92w+1iGdrr7KDeF6My/Gj9iQ3QlBEMWhvp4XXg+I0v4hTVZeNe7n1HfMQl8LtFUcXt2x6DM6vqhtlJtDqFg==",
+    "Syncfusion.Xamarin.SfDataGrid/16.4.0.42": {
+      "sha512": "KMH8iEXGa+UbqcmDV85/t+hlYtBcyHzCjC9YYLkF5E7oOwMi4/xHrl1i2z6f7DU9+cBKhx7bTu58N5PCli7V2w==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfdatagrid/16.4.0.40-beta",
+      "path": "syncfusion.xamarin.sfdatagrid/16.4.0.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3610,7 +3663,7 @@
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP.dll",
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll",
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.xml",
-        "syncfusion.xamarin.sfdatagrid.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.sfdatagrid.16.4.0.42.nupkg.sha512",
         "syncfusion.xamarin.sfdatagrid.nuspec"
       ]
     },
@@ -3637,10 +3690,10 @@
         "syncfusion.xamarin.sfgridconverter.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.40-beta": {
-      "sha512": "SPQwGxj9+u9zpBqf/q7Tfel2hpd2B5zqPPaIlJEGw48o9Q/YoBC1GIuX4sXAYQ65PQP4BSsS9fjdX1W7Pk7zsg==",
+    "Syncfusion.Xamarin.SfNumericTextBox/16.4.0.42": {
+      "sha512": "PF4Gp7TQdxsIa4zA8QvRMXROhJNgbOaRL3P0Jgpk48px+hnNB079B25miOLGtxTy4bqaQIW3ZDLBTrB2lgiypA==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfnumerictextbox/16.4.0.40-beta",
+      "path": "syncfusion.xamarin.sfnumerictextbox/16.4.0.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3681,7 +3734,7 @@
         "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.xr.xml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xaml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
-        "syncfusion.xamarin.sfnumerictextbox.16.4.0.40-beta.nupkg.sha512",
+        "syncfusion.xamarin.sfnumerictextbox.16.4.0.42.nupkg.sha512",
         "syncfusion.xamarin.sfnumerictextbox.nuspec"
       ]
     },
@@ -4300,6 +4353,7 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid81/Plugin.Iconize.dll",
+        "lib/monoandroid81/Plugin.Iconize.dll.mdb",
         "lib/monoandroid81/Plugin.Iconize.pdb",
         "lib/monoandroid81/Plugin.Iconize.xml",
         "lib/netstandard1.3/Plugin.Iconize.dll",
@@ -4330,6 +4384,7 @@
         "contentFiles/any/Xamarin.iOS10/Resources/iconize-fontawesome-regular.ttf",
         "contentFiles/any/Xamarin.iOS10/Resources/iconize-fontawesome-solid.ttf",
         "lib/monoandroid81/Plugin.Iconize.FontAwesome.dll",
+        "lib/monoandroid81/Plugin.Iconize.FontAwesome.dll.mdb",
         "lib/monoandroid81/Plugin.Iconize.FontAwesome.pdb",
         "lib/monoandroid81/Plugin.Iconize.FontAwesome.xml",
         "lib/netstandard1.3/Plugin.Iconize.FontAwesome.dll",
@@ -4361,6 +4416,7 @@
         ".signature.p7s",
         "contentFiles/any/Xamarin.iOS10/Resources/iconize-ionicons.ttf",
         "lib/monoandroid81/Plugin.Iconize.Ionicons.dll",
+        "lib/monoandroid81/Plugin.Iconize.Ionicons.dll.mdb",
         "lib/monoandroid81/Plugin.Iconize.Ionicons.pdb",
         "lib/monoandroid81/Plugin.Iconize.Ionicons.xml",
         "lib/netstandard1.3/Plugin.Iconize.Ionicons.dll",
@@ -4390,6 +4446,7 @@
         ".signature.p7s",
         "contentFiles/any/Xamarin.iOS10/Resources/iconize-material.ttf",
         "lib/monoandroid81/Plugin.Iconize.Material.dll",
+        "lib/monoandroid81/Plugin.Iconize.Material.dll.mdb",
         "lib/monoandroid81/Plugin.Iconize.Material.pdb",
         "lib/monoandroid81/Plugin.Iconize.Material.xml",
         "lib/netstandard1.3/Plugin.Iconize.Material.dll",
@@ -4419,6 +4476,7 @@
         ".signature.p7s",
         "contentFiles/any/Xamarin.iOS10/Resources/iconize-simplelineicons.ttf",
         "lib/monoandroid81/Plugin.Iconize.SimpleLineIcons.dll",
+        "lib/monoandroid81/Plugin.Iconize.SimpleLineIcons.dll.mdb",
         "lib/monoandroid81/Plugin.Iconize.SimpleLineIcons.pdb",
         "lib/monoandroid81/Plugin.Iconize.SimpleLineIcons.xml",
         "lib/netstandard1.3/Plugin.Iconize.SimpleLineIcons.dll",
@@ -4439,28 +4497,40 @@
         "xam.plugin.iconize.simplelineicons.nuspec"
       ]
     },
-    "Xam.Plugin.Media/4.0.1.5": {
-      "sha512": "PxL0vcTXpS79l2KgtaJBShcPVMRK2HC5J08vG6hKTC7hk5+3RjgFrdX0N6Gd4oF8pxVxV2ia7rhYnjxRCMWZtw==",
+    "Xam.Plugin.Media/4.1.0-beta": {
+      "sha512": "KaZ7mW3fNAQshWYAWR23Dks//2igz6vUXou6j/llVz5V5ML4XVN5GJ/6HFMsshbjuvOE/Or/FfRbGa9hI3zD7A==",
       "type": "package",
-      "path": "xam.plugin.media/4.0.1.5",
+      "path": "xam.plugin.media/4.1.0-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid71/Plugin.Media.dll",
+        "lib/monoandroid71/Plugin.Media.pdb",
         "lib/monoandroid71/Plugin.Media.xml",
+        "lib/monoandroid80/Plugin.Media.dll",
+        "lib/monoandroid80/Plugin.Media.pdb",
+        "lib/monoandroid80/Plugin.Media.xml",
+        "lib/monoandroid81/Plugin.Media.dll",
+        "lib/monoandroid81/Plugin.Media.pdb",
+        "lib/monoandroid81/Plugin.Media.xml",
         "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.pdb",
         "lib/netstandard1.0/Plugin.Media.xml",
         "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.pdb",
         "lib/netstandard2.0/Plugin.Media.xml",
         "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
         "lib/tizen40/Plugin.Media.xml",
-        "lib/uap10.0.10240/Plugin.Media.dll",
-        "lib/uap10.0.10240/Plugin.Media.pri",
-        "lib/uap10.0.10240/Plugin.Media.xml",
+        "lib/uap10.0.16299/Plugin.Media.dll",
+        "lib/uap10.0.16299/Plugin.Media.pdb",
+        "lib/uap10.0.16299/Plugin.Media.pri",
+        "lib/uap10.0.16299/Plugin.Media.xml",
         "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.pdb",
         "lib/xamarinios10/Plugin.Media.xml",
         "readme.txt",
-        "xam.plugin.media.4.0.1.5.nupkg.sha512",
+        "xam.plugin.media.4.1.0-beta.nupkg.sha512",
         "xam.plugin.media.nuspec"
       ]
     },
@@ -4486,10 +4556,10 @@
         "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
-    "Xamarin.Forms/3.3.0.967583": {
-      "sha512": "+Y5j017bAHyZquRMj4vWyudJeJw7xQk+8BUNpMXg91ttO7sGWGGd6TuAuJubF0iEihzMDY1McZV8ZLZCjqjwUQ==",
+    "Xamarin.Forms/4.0.0.8055-pre1": {
+      "sha512": "qpG3VScl/47kYVXQ6pLvH45ScOiISU45g9lkPm8pNFdyZBqiu8pmVUEK7Q+AisEuLSz7Xx4MC8g+q0yQUHqcjA==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.967583",
+      "path": "xamarin.forms/4.0.0.8055-pre1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4513,21 +4583,32 @@
         "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
         "build/netstandard2.0/Xamarin.Forms.Core.dll",
         "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
-        "lib/MonoAndroid10/FormsViewGroup.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid81/FormsViewGroup.dll",
+        "lib/MonoAndroid81/FormsViewGroup.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid90/FormsViewGroup.dll",
+        "lib/MonoAndroid90/FormsViewGroup.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
@@ -4611,6 +4692,7 @@
         "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.pdb",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
@@ -4620,17 +4702,20 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Items/ItemsViewStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.967583.nupkg.sha512",
+        "xamarin.forms.4.0.0.8055-pre1.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -4707,6 +4792,19 @@
         "xamarin.forms.theme.light.1.0.0.43-pre1.nupkg.sha512",
         "xamarin.forms.theme.light.nuspec"
       ]
+    },
+    "Xamarin.iOS.MaterialComponents/60.1.0": {
+      "sha512": "9DWXqdpC7PrkiYoo2d4I6erFpzI1Xjfv/D9CUv/RaqJb8xEu5o/XFbIFrf7jYZVWpL8O0yQgRsIe8t8GC+umEQ==",
+      "type": "package",
+      "path": "xamarin.ios.materialcomponents/60.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/Xamarin.iOS/MaterialComponents.dll",
+        "xamarin.ios.materialcomponents.60.1.0.nupkg.sha512",
+        "xamarin.ios.materialcomponents.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -4717,9 +4815,9 @@
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 12.0.1",
       "PubnubPCL >= 4.0.24",
-      "Syncfusion.Xamarin.Buttons >= 16.4.0.40-beta",
-      "Syncfusion.Xamarin.SfAutoComplete >= 16.4.0.40-beta",
-      "Syncfusion.Xamarin.SfDataGrid >= 16.4.0.40-beta",
+      "Syncfusion.Xamarin.Buttons >= 16.4.0.42",
+      "Syncfusion.Xamarin.SfAutoComplete >= 16.4.0.42",
+      "Syncfusion.Xamarin.SfDataGrid >= 16.4.0.42",
       "Syncfusion.Xamarin.SfGridConverter >= 16.3.0.29",
       "System.Net.Http >= 4.3.4",
       "Xam.Plugin.Iconize >= 3.4.0.103",
@@ -4727,9 +4825,9 @@
       "Xam.Plugin.Iconize.Ionicons >= 3.4.0.103",
       "Xam.Plugin.Iconize.Material >= 3.4.0.103",
       "Xam.Plugin.Iconize.SimpleLineIcons >= 3.4.0.103",
-      "Xam.Plugin.Media >= 4.0.1.5",
+      "Xam.Plugin.Media >= 4.1.0-beta",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.6-beta",
-      "Xamarin.Forms >= 3.3.0.967583",
+      "Xamarin.Forms >= 4.0.0.8055-pre1",
       "Xamarin.Forms.CarouselView >= 2.3.0-pre2",
       "Xamarin.Forms.Pages >= 4.0.0.8055-pre1",
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
@@ -4798,15 +4896,15 @@
           },
           "Syncfusion.Xamarin.Buttons": {
             "target": "Package",
-            "version": "[16.4.0.40-beta, )"
+            "version": "[16.4.0.42, )"
           },
           "Syncfusion.Xamarin.SfAutoComplete": {
             "target": "Package",
-            "version": "[16.4.0.40-beta, )"
+            "version": "[16.4.0.42, )"
           },
           "Syncfusion.Xamarin.SfDataGrid": {
             "target": "Package",
-            "version": "[16.4.0.40-beta, )"
+            "version": "[16.4.0.42, )"
           },
           "Syncfusion.Xamarin.SfGridConverter": {
             "target": "Package",
@@ -4838,7 +4936,7 @@
           },
           "Xam.Plugin.Media": {
             "target": "Package",
-            "version": "[4.0.1.5, )"
+            "version": "[4.1.0-beta, )"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",
@@ -4846,7 +4944,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.3.0.967583, )"
+            "version": "[4.0.0.8055-pre1, )"
           },
           "Xamarin.Forms.CarouselView": {
             "target": "Package",
@@ -4882,85 +4980,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1008975 to 3.3.0.967583. Reference the package directly from the project to select a different version. \r\n App1.iOS -> Xam.Plugin.Iconize 3.4.0.103 -> Xamarin.Forms (>= 3.4.0.1008975) \r\n App1.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1008975 to 3.3.0.967583. Reference the package directly from the project to select a different version. \r\n App1.iOS -> Xam.Plugin.Iconize.FontAwesome 3.4.0.103 -> Xamarin.Forms (>= 3.4.0.1008975) \r\n App1.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1008975 to 3.3.0.967583. Reference the package directly from the project to select a different version. \r\n App1.iOS -> Xam.Plugin.Iconize.Ionicons 3.4.0.103 -> Xamarin.Forms (>= 3.4.0.1008975) \r\n App1.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1008975 to 3.3.0.967583. Reference the package directly from the project to select a different version. \r\n App1.iOS -> Xam.Plugin.Iconize.Material 3.4.0.103 -> Xamarin.Forms (>= 3.4.0.1008975) \r\n App1.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 3.4.0.1008975 to 3.3.0.967583. Reference the package directly from the project to select a different version. \r\n App1.iOS -> Xam.Plugin.Iconize.SimpleLineIcons 3.4.0.103 -> Xamarin.Forms (>= 3.4.0.1008975) \r\n App1.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.8055-pre1 to 3.3.0.967583. Reference the package directly from the project to select a different version. \r\n App1.iOS -> Xamarin.Forms.Pages 4.0.0.8055-pre1 -> Xamarin.Forms (>= 4.0.0.8055-pre1) \r\n App1.iOS -> Xamarin.Forms (>= 3.3.0.967583)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  }
 }

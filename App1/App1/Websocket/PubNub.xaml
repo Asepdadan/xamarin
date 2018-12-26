@@ -1,34 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.Websocket.PubNub">
+             x:Class="App1.Websocket.PubNub"
+             
+             >
     <ContentPage.Content>
+        <RelativeLayout>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="350" />
                     <RowDefinition Height="40" />
                     <RowDefinition Height="40" />
                 </Grid.RowDefinitions>
-            
 
-                <ListView Grid.Row="0" ItemsSource="{Binding MyListCollector}"
+
+                <ListView Grid.Row="0" 
+                          ItemsSource="{Binding MyListCollector}"
                        IsPullToRefreshEnabled="True" 
                        x:Name="ChatListView" 
                        HasUnevenRows="true" 
-                       SeparatorVisibility="Default" >
+                          
+                       SeparatorVisibility="None" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <TextCell Text="{Binding pesan}" />
+                            <TextCell Text="{Binding pesan}"/>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
 
-                
-            
-            <Entry x:Name="message" Grid.Row="1"></Entry>
-            <Button x:Name="PublishPubNub" 
+
+
+                <Entry x:Name="message" Grid.Row="1"></Entry>
+                <Button x:Name="PublishPubNub" 
                     HorizontalOptions="FillAndExpand" Grid.Row="2" Text="Publish"></Button>
-        </Grid>
-                   
+            </Grid>
+            
+        </RelativeLayout>
     </ContentPage.Content>
+    
 </ContentPage>

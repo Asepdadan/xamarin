@@ -12,6 +12,8 @@ using System.Threading;
 using System.Collections.ObjectModel;
 using Newtonsoft.Json.Linq;
 
+
+
 namespace App1.Websocket
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -41,8 +43,12 @@ namespace App1.Websocket
             Console.WriteLine("Server started.");
 
             StartClient();
-            
+
+         
+
         }
+
+        
 
         public void StartClient()
         {
@@ -63,7 +69,7 @@ namespace App1.Websocket
             pnConfiguration.PublishKey = "pub-c-c48d7308-3897-43a7-a391-50b439aa9b54";
             pnConfiguration.SecretKey = "sec-c-ODQxOTE3ZjgtNzA2YS00YWM4LTljMjktN2Y2Njc0ZDJlNzFm";
             pnConfiguration.LogVerbosity = PNLogVerbosity.BODY;
-            pnConfiguration.Uuid = "PubNubCSharpExampletesttste";
+            pnConfiguration.Uuid = "Asdan";
 
             Pubnub pubnub = new Pubnub(pnConfiguration);
 
@@ -88,13 +94,16 @@ namespace App1.Websocket
                                 pesan = jsonString
                             }   
                         );
+
+                        var v = ChatListView.ItemsSource.Cast<object>().LastOrDefault();
+                        ChatListView.ScrollTo(v, ScrollToPosition.End, true);
                     }
                 },
                 (pubnubObj, presence) => {
 
                     Debug.WriteLine("presence");
-                    Debug.WriteLine(presence);
-
+                    Debug.WriteLine(JObject.Parse(presence.Join.ToString()));
+                    
                     if (presence != null)
                     {
                         Debug.WriteLine("In Example, SusbcribeCallback received PNPresenceEventResult");
@@ -102,8 +111,8 @@ namespace App1.Websocket
                     }
                 },
                 (pubnubObj, status) => {
-                    Debug.WriteLine("Status");
-                    Debug.WriteLine(status);
+                    Debug.WriteLine("Status booss");
+                                        
                     switch (status.Operation)
                     {
                         // let's combine unsubscribe and subscribe handling for ease of use
@@ -218,6 +227,12 @@ namespace App1.Websocket
 
             var v = ChatListView.ItemsSource.Cast<object>().LastOrDefault();
             ChatListView.ScrollTo(v, ScrollToPosition.End, true);
+        }
+
+        
+        private void Handle_FabClicked(object sender, System.EventArgs e)
+        {
+            DisplayAlert("Floating Action Button", "You clicked the FAB!", "Awesome!");
         }
 
     }

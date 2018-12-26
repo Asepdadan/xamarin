@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.DesignLayout.WelcomePage"
+             xmlns:local="clr-namespace:App1"
+            BarBackgroundColor="AliceBlue"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement ="Bottom"
+             android:TabbedPage.BarItemColor="#b1b5bc"
+            android:TabbedPage.BarSelectedItemColor="Blue"
+            android:TabbedPage.IsSmoothScrollEnabled="false">
+
+    <TabbedPage.Children>
+        <NavigationPage Title="Home" Icon="baseline_home_black_18.png">
+            <x:Arguments>
+                <local:Picker />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Paket Saya" Icon="baseline_shopping_cart_black_18.png">
+            <x:Arguments>
+                <local:MyListPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Promo" Icon="baseline_new_releases_black_18.png">
+            <x:Arguments>
+                <local:DetailMasterLearning />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Lainnya" Icon="baseline_setting_black_18.png">
+            <x:Arguments>
+                <local:DetailMasterLearning />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

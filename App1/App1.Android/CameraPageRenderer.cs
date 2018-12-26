@@ -65,8 +65,7 @@ namespace App1.Droid
         protected CaptureRequest.Builder captureRequestBuilder2;
         Thread thread;
         public Handler mHandler;
-
-     
+        
 
         public CameraPageRenderer(Context context) : base(context)
         {
@@ -180,8 +179,14 @@ namespace App1.Droid
                 CameraCharacteristics characteristics = manager.GetCameraCharacteristics(cameraId2);
                 Log.Info("tes", "masuk ke sini bos");
                 Log.Info("tes", cameraId2);
-                
 
+                
+                                
+                //lock (mCameraStateLock)
+                //{
+                //    cameraId = mCameraId;
+                //    backgroundHandler = mBackgroundHandler;
+                //}
                 //if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                 //    ActivityCompat.requestPermissions(AndroidCameraApi.this, new String[] { Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE }, REQUEST_CAMERA_PERMISSION);
                 //return;

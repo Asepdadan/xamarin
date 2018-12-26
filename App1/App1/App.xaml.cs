@@ -10,6 +10,8 @@ using App1.TableView;
 using App1.DataPage;
 using App1.CustomRender;
 using App1.Websocket;
+using App1.DesignLayout;
+
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace App1
@@ -20,13 +22,17 @@ namespace App1
         {
             InitializeComponent();
 
-            //MainPage = new NavigationPage(new SplashScreenViewModel());
+            //MainPage = new NavigationPage(new SplashScreenViewModel());//splashscreen
             //MainPage = new DetailMasterLearning();
             //MainPage = new App1.PageTabbed();
             //MainPage = new ClickButton();
             //MainPage = new NavigationPage(new CustomContentPageCS());//camera
-            MainPage = new NavigationPage(new PubNub());
-
+            //MainPage = new NavigationPage(new PubNub());//chat
+            //MainPage = new NavigationPage(new PageNavigationBottom());//chat
+            //MainPage = new NavigationPage(new SplashScreenPage());//login
+            //MainPage = new NavigationPage(new CarouselPage4());//carousle page4
+            //MainPage = new NavigationPage(new LoginPage());//carousle page4
+            MainPage = new GetDataFromApi();
 
         }
 
@@ -34,6 +40,7 @@ namespace App1
         {
             // Handle when your app starts
             Debug.WriteLine("On Start");
+            
         }
 
         protected override void OnSleep()
