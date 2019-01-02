@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xf:BottomBarPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
+             xmlns:example="clr-namespace:App1.bottomnavigationbarxf"
+                  BarBackgroundColor="BlueViolet"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            
+            android:TabbedPage.BarItemColor="#999999"
+            android:TabbedPage.BarSelectedItemColor="Black"
+            android:TabbedPage.IsSmoothScrollEnabled="True"
+            
+                  
+             x:Class="App1.bottomnavigationbarxf.LayoutTab">
+    <example:TabPage Title="Favorites" Icon="baseline_favorite_black_18.png" />
+    <example:TabPage Title="Friends" Icon="baseline_favorite_black_18.png" xf:BottomBarPageExtensions.TabColor="#5D4037" />
+    <example:TabPage Title="Nearby" Icon="baseline_favorite_black_18.png" xf:BottomBarPageExtensions.TabColor="#7B1FA2" />
+    <example:TabPage Title="Restaurants" Icon="baseline_favorite_black_18.png" xf:BottomBarPageExtensions.TabColor="#FF9800" />
+
+</xf:BottomBarPage>

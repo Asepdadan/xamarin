@@ -25,6 +25,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)BottomBar\BottomBarPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)bottomnavigationbarxf\LayoutTab.xaml.cs">
+      <DependentUpon>LayoutTab.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)bottomnavigationbarxf\TabPage.xaml.cs">
+      <DependentUpon>TabPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Calculator.xaml.cs">
       <DependentUpon>Calculator.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -45,6 +53,15 @@
     <Compile Include="$(MSBuildThisFileDirectory)cobaCamera\CameraOptions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)cobaCamera\CameraPreview.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)cobaCamera\MainPageCs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CobaGrid\LayoutGrid.xaml.cs">
+      <DependentUpon>LayoutGrid.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CollectionView\AiFormCollectionForm.xaml.cs">
+      <DependentUpon>AiFormCollectionForm.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CollectionView\CollectionViewCS.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CustomRender\CustomContentPageCS.xaml.cs">
       <DependentUpon>CustomContentPageCS.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -74,6 +91,11 @@
       <DependentUpon>ClickButton.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ExpandListView\ExpandedLat1.xaml.cs">
+      <DependentUpon>ExpandedLat1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ExpandListView\ExpandedModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GetDataFromApi.xaml.cs">
       <DependentUpon>GetDataFromApi.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -310,6 +332,36 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)GetDataFromApi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ExpandListView\ExpandedLat1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CollectionView\AiFormCollectionForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)bottomnavigationbarxf\TabPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)bottomnavigationbarxf\LayoutTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CobaGrid\LayoutGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

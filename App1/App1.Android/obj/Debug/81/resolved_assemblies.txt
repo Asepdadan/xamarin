@@ -6,6 +6,8 @@ C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Bo
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\CarouselView.dll
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\CarouselView.FormsPlugin.Abstractions.dll
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\CarouselView.FormsPlugin.Android.dll
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\CollectionView.dll
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\CollectionView.Droid.dll
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Com.Android.DeskClock.dll
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Com.ViewPagerIndicator.dll
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\FormsViewGroup.dll

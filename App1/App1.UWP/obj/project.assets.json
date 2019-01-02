@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -1568,6 +1580,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -1751,6 +1772,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -3584,6 +3617,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -3767,6 +3809,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -5643,6 +5697,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -5826,6 +5889,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -7697,6 +7772,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -7880,6 +7964,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -9713,6 +9809,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -9896,6 +10001,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -11772,6 +11889,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -11955,6 +12081,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -13788,6 +13926,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -13971,6 +14118,18 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CollectionView.dll": {}
+        }
+      },
       "CarouselView/7.0.3.1": {
         "type": "package",
         "dependencies": {
@@ -15847,6 +16006,15 @@
           "lib/netcore50/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugin.Iconize/3.4.0.103": {
         "type": "package",
         "dependencies": {
@@ -16031,6 +16199,31 @@
     }
   },
   "libraries": {
+    "AiForms.CollectionView/0.3.10-pre": {
+      "sha512": "C6fb1ExTdnkM1tMhrtguq0SbEul2tNQH67hAfaIy7nWXhcpHjNbSDkq8NQVFa+Xt9jsqPD1a8evoY6GNmX6NZA==",
+      "type": "package",
+      "path": "aiforms.collectionview/0.3.10-pre",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aiforms.collectionview.0.3.10-pre.nupkg.sha512",
+        "aiforms.collectionview.nuspec",
+        "lib/MonoAndroid/CollectionView.Droid.dll",
+        "lib/MonoAndroid/CollectionView.Droid.xml",
+        "lib/MonoAndroid/CollectionView.dll",
+        "lib/MonoAndroid/CollectionView.xml",
+        "lib/MonoTouch/CollectionView.dll",
+        "lib/MonoTouch/CollectionView.iOS.dll",
+        "lib/MonoTouch/CollectionView.iOS.xml",
+        "lib/MonoTouch/CollectionView.xml",
+        "lib/Xamarin.iOS10/CollectionView.dll",
+        "lib/Xamarin.iOS10/CollectionView.iOS.dll",
+        "lib/Xamarin.iOS10/CollectionView.iOS.xml",
+        "lib/Xamarin.iOS10/CollectionView.xml",
+        "lib/netstandard2.0/CollectionView.dll",
+        "lib/netstandard2.0/CollectionView.xml"
+      ]
+    },
     "CarouselView/7.0.3.1": {
       "sha512": "TauXna84ZHzCb1lUfiS8lqeh3wqwL221r5uy+kz6QVIJiTN3rEs5TU2aPsbw0ZoCm3BEikh1emtF0IZKh+4Vaw==",
       "type": "package",
@@ -24743,6 +24936,21 @@
         "system.threading.threadpool.nuspec"
       ]
     },
+    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+      "sha512": "nb8TIw0WJ086cB4/uNoYdKHop9MEyVcCa6HJisya+HBhsYTfiznRQ5d97Y1G7mP5Gk1H+2NZXl92U9aQq1OjJw==",
+      "type": "package",
+      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/BottomBar.Droid.dll",
+        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
+        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
+        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
+        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
+        "thrivegmbh.bottomnavigationbar.xf.nuspec"
+      ]
+    },
     "Xam.Plugin.Iconize/3.4.0.103": {
       "sha512": "on9xiM/HbXZkitzBK1eU2Yrk3upzAguuhQURzmtehcwm02VnR1LG8o0e/p4vO74kcd+4ISAfjckM4MT3agZlkQ==",
       "type": "package",
@@ -25194,6 +25402,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
+      "AiForms.CollectionView >= 0.3.10-pre",
       "CarouselView >= 7.0.3.1",
       "CarouselView.FormsPlugin >= 5.2.0",
       "FontAwesome >= 4.7.0",
@@ -25206,6 +25415,7 @@
       "Syncfusion.Xamarin.SfDataGrid >= 16.4.0.42",
       "Syncfusion.Xamarin.SfGridConverter >= 16.3.0.29",
       "System.Net.Http >= 4.3.4",
+      "ThriveGmbH.BottomNavigationBar.XF >= 1.0.2",
       "Xam.Plugin.Iconize >= 3.4.0.103",
       "Xam.Plugin.Iconize.FontAwesome >= 3.4.0.103",
       "Xam.Plugin.Iconize.Ionicons >= 3.4.0.103",
@@ -25260,6 +25470,10 @@
     "frameworks": {
       "uap10.0.16299": {
         "dependencies": {
+          "AiForms.CollectionView": {
+            "target": "Package",
+            "version": "[0.3.10-pre, )"
+          },
           "CarouselView": {
             "target": "Package",
             "version": "[7.0.3.1, )"
@@ -25307,6 +25521,10 @@
           "System.Net.Http": {
             "target": "Package",
             "version": "[4.3.4, )"
+          },
+          "ThriveGmbH.BottomNavigationBar.XF": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           },
           "Xam.Plugin.Iconize": {
             "target": "Package",

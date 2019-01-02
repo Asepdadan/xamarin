@@ -277,6 +277,11 @@ C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\res\drawable\base
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\R.cs.flag
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\R.txt
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\uploadflags.txt
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\ExpandListView\ExpandedLat1.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\CollectionView\AiFormCollectionForm.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\bottomnavigationbarxf\TabPage.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\bottomnavigationbarxf\LayoutTab.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\CobaGrid\LayoutGrid.xaml.g.cs
 C:\Users\User\source\repos\App1\App1\App1.Android\bin\Debug\BouncyCastle.Crypto.pdb
 C:\Users\User\source\repos\App1\App1\App1.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\User\source\repos\App1\App1\App1.Android\bin\Debug\Mono.Android.pdb
@@ -342,7 +347,6 @@ C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Ic
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Iconize.SimpleLineIcons.dll.mdb
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Media.dll.mdb
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\linksrc\Plugin.Permissions.dll.mdb
-C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\App1.Android.csprojAssemblyReference.cache
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\ModernHttpClient.dll.mdb
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Plugin.Iconize.dll.mdb
 C:\Users\User\source\repos\App1\App1\App1.Android\obj\Debug\81\android\assets\Plugin.Iconize.FontAwesome.dll.mdb

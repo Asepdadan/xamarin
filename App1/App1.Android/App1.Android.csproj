@@ -52,6 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="AiForms.CollectionView">
+      <Version>0.3.10-pre</Version>
+    </PackageReference>
     <PackageReference Include="CarouselView">
       <Version>7.0.3.1</Version>
     </PackageReference>

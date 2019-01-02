@@ -135,3 +135,11 @@ C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\XamlC.st
 C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\App1.iOS.csproj.CopyComplete
 C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\App1.iOS.exe
 C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\App1.iOS.pdb
+C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\ExpandListView\ExpandedLat1.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.iOS\bin\iPhoneSimulator\Debug\CollectionView.dll
+C:\Users\User\source\repos\App1\App1\App1.iOS\bin\iPhoneSimulator\Debug\CollectionView.iOS.dll
+C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\CollectionView\AiFormCollectionForm.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\bottomnavigationbarxf\TabPage.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.iOS\bin\iPhoneSimulator\Debug\BottomBar.XamarinForms.dll
+C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\bottomnavigationbarxf\LayoutTab.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.iOS\obj\iPhoneSimulator\Debug\CobaGrid\LayoutGrid.xaml.g.cs

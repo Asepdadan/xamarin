@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.CobaGrid.LayoutGrid">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            
+
+            <Label Text="Top Left" Grid.Row="0" />
+            
+            <ListView Grid.Row="1">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>mono</x:String>
+                        <x:String>monodroid</x:String>
+                        <x:String>monotouch</x:String>
+                        <x:String>monorail</x:String>
+                        <x:String>monodevelop</x:String>
+                        <x:String>monotone</x:String>
+                        <x:String>monopoly</x:String>
+                        <x:String>monomodal</x:String>
+                        <x:String>mononucleosis</x:String>
+                        <x:String>monodroid</x:String>
+                        <x:String>monotouch</x:String>
+                        <x:String>monorail</x:String>
+                        <x:String>monodevelop</x:String>
+                        <x:String>monotone</x:String>
+                        <x:String>monopoly</x:String>
+                        <x:String>monomodal</x:String>
+                        <x:String>mononucleosis</x:String>
+                        <x:String>monodroid</x:String>
+                        <x:String>monotouch</x:String>
+                        <x:String>monorail</x:String>
+                        <x:String>monodevelop</x:String>
+                        <x:String>monotone</x:String>
+                        <x:String>monopoly</x:String>
+                        <x:String>monomodal</x:String>
+                        <x:String>mononucleosis</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+
+            <StackLayout BackgroundColor="#f2f8fc" Grid.Row="2">
+                <Grid Padding="5,5,5,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2,5*" />
+                        <ColumnDefinition Width="2,5*" />
+                        <ColumnDefinition Width="2,5*" />
+                        <ColumnDefinition Width="2,5*" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0" x:Name="home" BindingContext="home">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer   Tapped="OnTappedStackLayout"/>
+                        </StackLayout.GestureRecognizers>
+
+                        <Image Source="baseline_favorite_black_18.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" BindingContext="home">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnTappedImage"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Home" HorizontalOptions="Center" VerticalTextAlignment="Center"
+                            VerticalOptions="Center" FontSize="Micro">
+
+                            
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" x:Name="pembelian" BindingContext="pembelian">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer BindingContext="pembelian" Tapped="OnTappedStackLayout"/>
+                        </StackLayout.GestureRecognizers>
+
+                        <Image Source="baseline_favorite_black_18.png"
+                            HorizontalOptions="Center" BindingContext="pembelian"
+                            VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnTappedImage"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        
+                        <Label Text="Pembelian" HorizontalOptions="Center" VerticalTextAlignment="Center"
+                            VerticalOptions="Center" FontSize="Micro" >
+                            
+                        </Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="2" >
+                        <ImageButton Source="baseline_favorite_black_18.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"  />
+                        <Label Text="Keranjang" HorizontalOptions="Center" VerticalTextAlignment="Center"
+                            VerticalOptions="Center" FontSize="Micro"></Label>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="3">
+                        <ImageButton Source="baseline_favorite_black_18.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+                        <Label Text="Setting" HorizontalOptions="Center" VerticalTextAlignment="Center"
+                            VerticalOptions="Center" FontSize="Micro"></Label>
+                    </StackLayout>
+
+                </Grid>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

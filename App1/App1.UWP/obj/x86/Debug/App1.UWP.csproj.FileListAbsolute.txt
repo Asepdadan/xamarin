@@ -144,3 +144,10 @@ C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\Plugin.Media.pri.xml
 C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\ImageCircle.Forms.Plugin.pri.xml
 C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\ExpandListView\ExpandedLat1.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.UWP\bin\x86\Debug\CollectionView.dll
+C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\CollectionView\AiFormCollectionForm.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\bottomnavigationbarxf\TabPage.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.UWP\bin\x86\Debug\BottomBar.XamarinForms.dll
+C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\bottomnavigationbarxf\LayoutTab.xaml.g.cs
+C:\Users\User\source\repos\App1\App1\App1.UWP\obj\x86\Debug\CobaGrid\LayoutGrid.xaml.g.cs

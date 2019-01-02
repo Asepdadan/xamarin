@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\User\source\repos\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
       <PackagePath>entrypoint\App1.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\aiforms.collectionview\0.3.10-pre\lib\netstandard2.0\CollectionView.dll">
+      <PackagePath>CollectionView.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\carouselview\7.0.3.1\lib\netstandard2.0\CarouselView.dll">
       <PackagePath>CarouselView.dll</PackagePath>
     </AppxPackagedFile>
@@ -129,6 +132,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.xamarin.xlsio\16.3.0.29\lib\netstandard2.0\Syncfusion.XlsIO.Portable.dll">
       <PackagePath>Syncfusion.XlsIO.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\thrivegmbh.bottomnavigationbar.xf\1.0.2\lib\portable-net45+win8+wpa81\BottomBar.XamarinForms.dll">
+      <PackagePath>BottomBar.XamarinForms.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xam.plugin.iconize\3.4.0.103\lib\uap10.0.16299\Plugin.Iconize.dll">
       <PackagePath>Plugin.Iconize.dll</PackagePath>

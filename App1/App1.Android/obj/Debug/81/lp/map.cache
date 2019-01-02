@@ -5,6 +5,8 @@ BouncyCastle.Crypto
 CarouselView
 CarouselView.FormsPlugin.Abstractions
 CarouselView.FormsPlugin.Android
+CollectionView
+CollectionView.Droid
 Com.Android.DeskClock
 Com.ViewPagerIndicator
 FormsViewGroup

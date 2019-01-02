@@ -26,7 +26,8 @@ namespace App1.Droid
             Plugin.Iconize.Iconize.Init(Resource.Id.toolbar, Resource.Id.sliding_tabs);//icon
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
             base.OnCreate(savedInstanceState);
-            
+
+
             Instance = this;
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

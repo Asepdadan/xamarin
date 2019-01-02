@@ -11,7 +11,10 @@ using App1.DataPage;
 using App1.CustomRender;
 using App1.Websocket;
 using App1.DesignLayout;
-
+using App1.ExpandListView;
+using App1.CollectionView;
+using App1.bottomnavigationbarxf;
+using App1.CobaGrid;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace App1
@@ -32,7 +35,9 @@ namespace App1
             //MainPage = new NavigationPage(new SplashScreenPage());//login
             //MainPage = new NavigationPage(new CarouselPage4());//carousle page4
             //MainPage = new NavigationPage(new LoginPage());//carousle page4
-            MainPage = new GetDataFromApi();
+            //MainPage = new GetDataFromApi();
+            //MainPage = new ExpandedLat1();
+            MainPage = new NavigationPage(new LayoutGrid());
 
         }
 

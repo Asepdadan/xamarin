@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "AiForms.CollectionView/0.3.10-pre": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/MonoAndroid/CollectionView.Droid.dll": {},
+          "lib/MonoAndroid/CollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/CollectionView.Droid.dll": {},
+          "lib/MonoAndroid/CollectionView.dll": {}
+        }
+      },
       "BottomNavigationBar/1.1.2": {
         "type": "package",
         "dependencies": {
@@ -1079,6 +1093,31 @@
     }
   },
   "libraries": {
+    "AiForms.CollectionView/0.3.10-pre": {
+      "sha512": "C6fb1ExTdnkM1tMhrtguq0SbEul2tNQH67hAfaIy7nWXhcpHjNbSDkq8NQVFa+Xt9jsqPD1a8evoY6GNmX6NZA==",
+      "type": "package",
+      "path": "aiforms.collectionview/0.3.10-pre",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aiforms.collectionview.0.3.10-pre.nupkg.sha512",
+        "aiforms.collectionview.nuspec",
+        "lib/MonoAndroid/CollectionView.Droid.dll",
+        "lib/MonoAndroid/CollectionView.Droid.xml",
+        "lib/MonoAndroid/CollectionView.dll",
+        "lib/MonoAndroid/CollectionView.xml",
+        "lib/MonoTouch/CollectionView.dll",
+        "lib/MonoTouch/CollectionView.iOS.dll",
+        "lib/MonoTouch/CollectionView.iOS.xml",
+        "lib/MonoTouch/CollectionView.xml",
+        "lib/Xamarin.iOS10/CollectionView.dll",
+        "lib/Xamarin.iOS10/CollectionView.iOS.dll",
+        "lib/Xamarin.iOS10/CollectionView.iOS.xml",
+        "lib/Xamarin.iOS10/CollectionView.xml",
+        "lib/netstandard2.0/CollectionView.dll",
+        "lib/netstandard2.0/CollectionView.xml"
+      ]
+    },
     "BottomNavigationBar/1.1.2": {
       "sha512": "9k80Yh/XMyKulkznd7p+vgkJGjHZTHe3EbniqQQgDy4nDQaNzMEtedhSfkXdTxNVqBY6BmNUmh6OQhq/77dH8A==",
       "type": "package",
@@ -3511,6 +3550,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "AiForms.CollectionView >= 0.3.10-pre",
       "CarouselView >= 7.0.3.1",
       "CarouselView.FormsPlugin >= 5.2.0",
       "FontAwesome >= 4.7.0",
@@ -3581,6 +3621,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "AiForms.CollectionView": {
+            "target": "Package",
+            "version": "[0.3.10-pre, )"
+          },
           "CarouselView": {
             "target": "Package",
             "version": "[7.0.3.1, )"
